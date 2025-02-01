@@ -1,0 +1,80 @@
+###
+Data Management Plan (DMP) 
+for Vessel Movement Visualization and Trajectory Prediction
+The Data Management Plan outlines procedures for collecting, managing, and sharing vessel movement visualization and trajectory prediction data 
+using AIS data from Digitraffic.fi.
+https://www.digitraffic.fi/en/marine-traffic/#restjson--api
+
+###
+
+
+1. Data Collection and Existing Data Use:
+	# Data Source: 
+	Digitraffic.fi API will provide real-time and historical AIS data, including vessel position, speed, heading, and other static and dynamic information.
+	# Data Collection Method: 
+	The project will collect and store AIS data through API calls to Digitraffic.fi, 
+	with frequency determined by accuracy and computational resources, and either a scheduled task or streaming approach will be used.
+	# Existing Data Use: 
+	The project will primarily utilize AIS data from Digitraffic.fi's webpage, 
+	with no plans to utilize other existing datasets.
+This project uses data from the Digitraffic AIS API, which provides real-time AIS data on vessel positions, movement, and heading.
+The data is filtered for the Turku area and includes timestamps, vessel IDs, coordinates, speed, course, and other navigational parameters.
+
+
+2. Adherence to FAIR Principles (Findable, Accessible, Interoperable, and Reusable):
+	F – Findable: 
+	The AIS data will be stored in a structured database with clear metadata, including timestamps, vessel IDs, and source information. 
+	A data catalog will be created, and the data will be assigned a persistent identifier upon completion and publication. 
+	The metadata is structured using standardized formats and stored in a searchable database (PostgreSQL).
+	
+	A- Accessible: 
+	The Digitraffic.fi API will provide access to processed and potentially derived data, including predicted trajectories, 
+	through a dedicated interface. Access control will be implemented to manage access during and after the project, 
+	and the data will be available via MQTT and REST for real-time querying.
+	
+	I – Interoperable: 
+	The data will be stored in a specific format, such as GeoJSON for geographic data or CSV or Parquet for tabular data, 
+	using standard data models, and metadata will be provided using common vocabularies and ontologies for maritime data integration.
+	
+	R- Reusable: 
+	The data collection process, structure, quality, and processing steps will be clearly explained, with a clear license for data usage. 
+	The code for data processing and analysis will be made available for reproducibility, and the data will be well-documented, version-controlled, and shared under an open-access policy.
+
+
+3. Methodologies and Standards:
+	# Data Collection: Using Digitraffic AIS API with structured query parameters to retrieve relevant vessel data.
+	
+	# Data Storage: PostgreSQL is used to store historical AIS data for analysis and visualization.
+	
+	# Data Processing: The project will use data formats like GeoJSON and CSV, metadata like Dublin Core, and data exchange protocols. 
+	It will retrieve vessel data using Digitraffic AIS API, clean and preprocess data to handle missing values, outliers, and erroneous data points, and employ techniques like Kalman filtering to improve trajectory prediction accuracy.
+	
+	# Vessel movement visualization: Vessel movements will be visualized on a sea map using appropriate mapping libraries (e.g., Leaflet, OpenLayers). Using Leaflet.js, Mapbox, and Kepler.gl for mapping vessel movements. Vessel’s heading will be visually represented using arrows or other suitable indicators.
+	
+	# Trajectory Prediction: Machine learning models (e.g., Recurrent Neural Networks, Long Short-Term Memory networks, or other relevant time-series prediction models) will be used to predict ship trajectories. Model selection and parameter tuning will be performed using appropriate evaluation metrics.
+	
+	# Standards: The project will comply with data formats, metadata, and data exchange protocols, 
+	including ISO 19115 for geospatial metadata, IMO AIS data guidelines, and GDPR regulations for personal data protection.
+
+
+4. How is the data curated and prepared?
+	
+	Pre-processing involves data cleaning, format standardization, and GeoJSON conversion for visualization. 
+	Real-time data is collected, filtered for Turku region, and stored in PostgreSQL.
+	
+	# Data Cleaning: The raw AIS data will be thoroughly cleaned to remove errors and inconsistencies, including managing missing values, filtering out erroneous data points, and rectifying vessel identity discrepancies.
+	
+	# Data Transformation: The data will be translated into a format appropriate for display and trajectory prediction. This could include translating data types, aggregating data, and developing additional features (e.g., speed, acceleration).
+	
+	# Data Storage: Data that is older than a specific time period is archived or destroyed in accordance with retention standards. The processed data will be saved in an appropriate database system (e.g., PostgreSQL with PostGIS extension) or file format (e.g., Parquet) for easy access and retrieval.
+
+
+5. Ownership and User Rights:
+	# Data Ownership: 
+	The raw AIS data is owned by the data providers, while the processed and derived data is subject to the project's data management policy, 
+	and the data is publicly available under Digitraffic's licensing terms.
+	
+	# User Rights: 
+	The project's API will manage data access, granted to project members and collaborators during the project. 
+	After completion, the data will be made available to the wider research community under an open data license, allowing for reuse with proper attribution. Users accessing the public API will be subject to an open-access license. Any identifiable vessel data must comply with GDPR and AIS data policies to avoid misuse.
+
