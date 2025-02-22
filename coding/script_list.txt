@@ -1,0 +1,4 @@
+List of Scripts running in project
+
+1. Script_1.py - Python Script to Connect and Create a Table in PosgresSQL
+2. 
