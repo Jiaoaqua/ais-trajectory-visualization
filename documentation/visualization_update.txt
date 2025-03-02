@@ -1,0 +1,74 @@
+==================================================
+Vessel Data Visualization Update (Turku Region)
+==================================================
+
+Overview:
+This update implements an interactive vessel visualization system for the Turku region. 
+The system provides:
+- Real-time vessel position tracking
+- Heading direction visualization
+- Interactive filtering options for vessel analysis
+
+--------------------------------------------------
+Features Implemented
+--------------------------------------------------
+
+1. Vessel Map with Interactive Markers
+- Displays real-time vessel positions using Dash + Leaflet.js
+- Uses color-coded markers based on vessel speed:
+  Blue  : Low speed (≤ 5 knots)
+  Orange: Medium speed (5-15 knots)
+  Red   : High speed (> 15 knots)
+- Clicking on a vessel marker shows detailed information:
+  - Vessel Name
+  - Speed (knots)
+  - Heading Direction
+  - Destination
+
+2. Heading Direction Arrows
+- Red arrows indicate the vessel's heading direction
+- Arrows are dynamically calculated using "cog" (course over ground)
+- Helps in analyzing vessel movement trends
+
+3. Interactive Filters
+- Users can filter vessels based on:
+  - Vessel Type
+  - Speed Range (Low, Medium, High)
+  - Destination
+- The map updates dynamically when filters are applied
+
+4. Speed Distribution Chart
+- Displays a histogram of vessel speeds
+- Updates dynamically when filters are applied
+- Helps analyze vessel traffic patterns
+
+--------------------------------------------------
+Technologies Used
+--------------------------------------------------
+- Dash (for the interactive web app)
+- Dash Leaflet (for real-time mapping)
+- Plotly (for statistical visualization)
+- Pandas (for handling AIS vessel data)
+
+--------------------------------------------------
+Next Steps？
+--------------------------------------------------
+- Optimize map performance for handling large datasets
+- Enable real-time data updates (fetching latest vessel positions)
+- Add a search function to find specific vessels
+
+--------------------------------------------------
+How to Run the Application
+--------------------------------------------------
+1. Navigate to the project folder:
+   dep_proj_3
+
+2. Activate virtual environment:
+   - Mac/Linux: source venv/bin/activate
+   - Windows: venv\Scripts\activate
+
+3. Run the Dash application:
+   python coding/app.py
+
+4. Open "http://127.0.0.1:8050/" in your browser.
+
