@@ -18,7 +18,6 @@ APP_NAME = "AIS_Traffic_Turku"
 # Store vessel metadata in Python memory
 vessel_metadata = {}
 
-
 # Connect to PostgreSQL
 def connect_db():
     try:
@@ -52,7 +51,8 @@ def create_table():
             heading DOUBLE PRECISION,
             cog DOUBLE PRECISION,
             vessel_name TEXT,
-            destination TEXT
+            destination TEXT,
+            type INTEGER
         );
     """)
     conn.commit()
@@ -87,7 +87,7 @@ def on_message(client, userdata, message):
     msg_str = str(message.payload.decode('utf-8'))
     print('AIS-message received:\n', msg_str)
     message_topic = message.topic.split("/")
-    
+
     if len(message_topic) > 2:
         vessel_id = message_topic[1]
         message_type = message_topic[2]
@@ -102,6 +102,7 @@ def on_message(client, userdata, message):
 
             vessel_name = vessel_metadata.get(vessel_id, {}).get('name', "Unknown")
             destination = vessel_metadata.get(vessel_id, {}).get('destination', "Unknown")
+            type_info = vessel_metadata.get(vessel_id, {}).get('type', "Unknown") # Add the type info
 
             # Only insert if vessel is inside Turku area
             if LAT_MIN <= lat <= LAT_MAX and LON_MIN <= lon <= LON_MAX:
@@ -109,13 +110,13 @@ def on_message(client, userdata, message):
                     conn = connect_db()
                     cursor = conn.cursor()
                     cursor.execute("""
-                        INSERT INTO ais_vessel_turku (vessel_id, latitude, longitude, velocity, heading, cog, vessel_name, destination)
-                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
-                    """, (vessel_id, lat, lon, sog, heading, cog, vessel_name, destination))
+                        INSERT INTO ais_vessel_turku (vessel_id, latitude, longitude, velocity, heading, cog, vessel_name, destination, type) 
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s); 
+                    """, (vessel_id, lat, lon, sog, heading, cog, vessel_name, destination, type_info))
                     conn.commit()
                     cursor.close()
                     conn.close()
-                    print(f"Inserted into DB: {vessel_id}, {lat}, {lon}, {sog}, {heading}, {cog}, {vessel_name}, {destination}")
+                    print(f"Inserted into DB: {vessel_id}, {lat}, {lon}, {sog}, {heading}, {cog}, {vessel_name}, {destination}, {type_info}") # Add the type info
                 except Exception as e:
                     print(f"Error inserting into DB: {e}")
 
@@ -123,6 +124,7 @@ def on_message(client, userdata, message):
             metadata_msg = json.loads(msg_str)
             vessel_name = metadata_msg.get('name', "Unknown")
             vessel_destination = metadata_msg.get('destination', "Unknown")
+            vessel_type = metadata_msg.get('type', "Unknown")
 
             # Store metadata in Python memory
             if vessel_id not in vessel_metadata:
@@ -130,9 +132,10 @@ def on_message(client, userdata, message):
 
             vessel_metadata[vessel_id]['name'] = vessel_name
             vessel_metadata[vessel_id]['destination'] = vessel_destination
+            vessel_metadata[vessel_id]['type'] = vessel_type
 
-            print(f"Added metadata for vessel {vessel_id}: Name = {vessel_name}, Destination = {vessel_destination}")
-            print("Added name and destination:", vessel_metadata[vessel_id])
+            print(f"Added metadata for vessel {vessel_id}: Name = {vessel_name}, Destination = {vessel_destination}, Type = {vessel_type}")
+            print("Added metadata:", vessel_metadata[vessel_id])
 
 
 # Retrieve stored metadata
@@ -151,7 +154,7 @@ def on_connect(client, userdata, flags, rc):
 
 
 # MQTT Client
-print("Initializing MQTT client...")
+print("Initializing MQTT client.")
 client_name = f"{APP_NAME}; {uuid.uuid4()}"
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1, client_name, transport="websockets")
 
@@ -159,7 +162,7 @@ client.on_connect = on_connect
 client.on_message = on_message
 
 client.tls_set()
-print("Connecting to MQTT broker...")
+print("Connecting to MQTT broker.")
 client.connect(MQTT_BROKER, MQTT_PORT)
 
 print("MQTT broker connection initiated.")
@@ -169,5 +172,5 @@ if __name__ == "__main__":
     print("Starting script")
     create_table()  # Ensure table exists
     count_vessels()  # Show vessel count
-    print("Listening for AIS data...")
+    print("Listening for AIS data.")
     client.loop_forever()  # Keep listening

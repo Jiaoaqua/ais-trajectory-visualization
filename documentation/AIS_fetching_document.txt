@@ -1,0 +1,68 @@
+==================================================
+Vessel Data Ingestion and Storage System (Turku Region)
+==================================================
+
+Overview:
+This system implements a real-time data ingestion and storage solution for vessel data in the Turku region. 
+It captures, processes, and stores AIS (Automatic Identification System) messages from vessels, enabling downstream analysis and visualization.
+
+--------------------------------------------------
+Features Implemented
+--------------------------------------------------
+
+1. Real-time AIS Data Ingestion
+- Captures vessel data using MQTT protocol from Digitraffic’s AIS feed
+- Supports location and metadata message types
+- Filters data for the Turku region based on latitude and longitude bounds
+
+2. PostgreSQL Database Integration
+- Establishes a secure connection to the PostgreSQL database
+- Creates an 'ais_vessel_turku' table if it doesn’t already exist
+- Stores vessel location and metadata in the database:
+  - Vessel ID
+  - Latitude
+  - Longitude
+  - Speed over ground (SOG)
+  - Heading direction
+  - Course over ground (COG)
+  - Vessel name
+  - Destination
+  - Type
+  
+
+3. In-memory Metadata Storage
+- Maintains vessel name and destination information in a Python dictionary
+- Reduces database calls for frequently accessed metadata
+
+4. Vessel Count Analysis
+- Queries PostgreSQL to count distinct vessels recorded in the system
+- Provides a quick snapshot of the number of unique vessels captured
+
+--------------------------------------------------
+Technologies Used
+--------------------------------------------------
+- Python (for data ingestion and processing)
+- paho-mqtt (for real-time message subscription)
+- PostgreSQL (for structured data storage)
+- psycopg2 (for database connectivity)
+- JSON (for parsing AIS messages)
+
+--------------------------------------------------
+Next Steps
+--------------------------------------------------
+- Implement real-time data visualization
+- Add error handling and retry logic for MQTT and database operations
+
+--------------------------------------------------
+How to Run the Application
+--------------------------------------------------
+1. Ensure PostgreSQL and Python environment are set up.
+2. Navigate to the project folder:
+   dep_proj_3
+3. Activate the virtual environment:
+   - Mac/Linux: source venv/bin/activate
+   - Windows: venv\Scripts\activate
+4. Start the Python script:
+   python coding/AIS_data_fetching.py
+5. The system will automatically listen for incoming AIS messages and store them in the database.
+
