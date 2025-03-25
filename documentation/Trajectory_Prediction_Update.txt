@@ -1,0 +1,38 @@
+Trajectory Prediction - Update Summary  
+
+
+1. Direction Arrow (Heading / COG)
+   - Implemented a red direction arrow (`dl.Polygon`) for each vessel, based on its COG (Course Over Ground).
+   - This shows the actual direction the vessel is heading.
+
+2. Trajectory Prediction
+   - Added the `predict_trajectory()` function to calculate the future path of each vessel based on:
+     - current position (lat, lon)
+     - COG direction
+     - velocity (knots)
+   - Drawn the predicted path using `dl.Polyline` with red lines.
+   - Predicts future location for the next 5 minutes.
+
+3. Marker & Popup Enhancements
+   - Customized marker colors based on speed (red/orange/blue).
+   - Updated popup to include:
+     - Vessel name
+     - Speed
+     - Heading (COG)
+
+4. Interactive Filtering
+   - Added dropdown filters:
+     - Vessel Name (multi-select)
+     - Speed Category (All / Low / Medium / High)
+     - Destination (multi-select)
+   - Filters dynamically update the map and histogram.
+
+
+5. Map Integration
+   - Built using `dash-leaflet`, supports interactive zoom and popups.
+   - The app works inside the browser, no need for Jupyter Notebook.
+   - All changes are viewable via the GitLab repo.
+
+Improvements for next week:
+- Export `.png` of predicted route using matplotlib
+- Real-time data streaming (e.g. via MQTT) for continuous updates
