@@ -1,0 +1,64 @@
+Progress Summary (March 27, 2025)
+What I have accomplished today:
+Built a Real-Time AIS Data Ingestion System:
+
+Connected to the public MQTT broker meri.digitraffic.fi using paho-mqtt.
+
+Established a secure WebSocket TLS connection (wss://meri.digitraffic.fi:443).
+
+Subscribed to the topic vessels-v2/positions/# for vessel position updates.
+
+Successfully implemented message parsing, data extraction, and saved incoming messages into latest_vessels.json every few seconds for real-time processing.
+
+Developed and Integrated a Vessel Trajectory Prediction Model:
+
+Trained a compressed RandomForestRegressor model on historical AIS data.
+
+Integrated the model into the Dash app to predict vessel location 5 minutes ahead.
+
+Visualized current and predicted locations using color-coded markers.
+
+End-to-End Dash Web App Working with Real-Time Structure:
+
+Users can select vessels and view real-time position.
+
+Predictions are visualized automatically without manual refresh.
+
+System supports real-time updates once valid data is fed into the JSON file.
+
+
+
+Current Problem: Real-Time AIS Data Not Received from Digitraffic
+Although the MQTT connection and subscription to vessels-v2/positions/# work correctly, we are not receiving any real-time vessel data.
+
+What We Have Verified:
+MQTT client successfully connects
+
+Topic subscription confirmed
+
+No data received in on_message() callback
+
+I also tested the Digitraffic REST and SSE APIs using curl (e.g. /api/v1/vesivayla/sse/vessels and /api/v1/locations/latest), but received 404 responses or empty data.
+
+
+
+Likely Cause:
+Digitraffic.fi appears to have stopped pushing real-time vessel data to the public MQTT endpoint, or access now requires authentication or a private API key.
+
+
+
+Next Steps (Planned Solution):
+Since real-time data is unavailable, I plan to:
+
+Create a Simulation Script (AIS_data_simulator.py) to mock real-time AIS data by reading from historical data and pushing to latest_vessels.json at regular intervals.
+
+Keep the current system architecture exactly the same (data ingestion → prediction → visualization), proving that our end-to-end pipeline is working.
+
+In the final documentation, clearly explain:
+
+Why real-time data was not available (with evidence).
+
+What changes would be required if a real data stream becomes available (i.e. none, the system is ready).
+
+How we simulated data to demonstrate functionality and design.
+
