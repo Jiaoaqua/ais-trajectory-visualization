@@ -1,4 +1,8 @@
 List of Scripts running in project
 
-1. Script_1.py - Python Script to Connect and Create a Table in PosgresSQL
-2. 
+1. AIS_data_fetching.py - Python Script to Connect, Create a Table in PosgresSQL, Collect AIS data
+2. ais_preprocessing.ipynb - Script of ML to clean the collected database
+3. AIS_prediction.ipynb -  Script to create the model of Predict ship trajectories
+4. app.py - Visualize and Predict ship trajectories
+5. API.py - RAPI that allows querying and downloading collected data
+6. import_csv.py - Export the data from database to csv file (for cleaning and trainning model)

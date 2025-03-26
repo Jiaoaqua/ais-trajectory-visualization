@@ -1,0 +1,82 @@
+==================================================
+Vessel Data API Update (Turku Region)
+==================================================
+
+Overview:
+This update implements a RESTful API that provides vessel data for the Turku region. 
+The API serves vessel-related information and allows for querying data dynamically. 
+It enables real-time data retrieval, vessel-specific data fetching, and CSV download functionality for further analysis.
+
+The API provides:
+- Real-time querying of vessel data
+- Retrieval of vessel data by vessel ID
+- Data download functionality in CSV format
+
+--------------------------------------------------
+Features Implemented
+--------------------------------------------------
+
+1. Vessel Data Retrieval API
+Provides a route to retrieve all vessel data for the Turku region.
+Query returns the most recent vessel data based on the timestamp column, ensuring up-to-date information.
+Responds with detailed vessel data including:
+	Vessel ID
+	Vessel Name
+	Position (Latitude, Longitude)
+	Speed (Knots)
+	Heading Direction
+	Timestamp
+
+2. Vessel Data by ID API
+Allows for querying specific vessel data by vessel ID.
+Users can retrieve detailed information about a specific vessel using its unique identifier.
+Information includes:
+	Vessel ID
+	Name
+	Position
+	Speed
+	Heading Direction
+	Timestamp
+  
+
+3. CSV Download API
+Provides an endpoint for downloading the most recent vessel data as a CSV file.
+Supports downloading a limited set of the most recent 100 rows of vessel data.
+Allows easy export for offline analysis.
+
+
+--------------------------------------------------
+Technologies Used
+--------------------------------------------------
+- Flask (for building the RESTful API)
+- psycopg2 (for PostgreSQL database connection)
+- Pandas (for handling data manipulation and CSV export)
+- PostgreSQL (as the database for storing AIS vessel data)
+
+--------------------------------------------------
+Next Steps
+--------------------------------------------------
+- Enhance Security: Implement API key authentication for accessing sensitive data.
+- Real-time Data Updates: Add WebSocket or similar technology for real-time data streaming to clients.
+- Search Functionality: Implement advanced search functionality (e.g., by vessel type, destination, etc.) for querying specific vessels.
+- Error Handling Improvement: Enhance error messages and validation for API inputs.
+
+--------------------------------------------------
+How to Run the Application
+--------------------------------------------------
+1. Navigate to the project folder: cd dep_proj_3
+
+2. Activate the virtual environment:
+	Mac/Linux: source venv/bin/activate
+	Windows: venv\Scripts\activate
+	
+3. Run the Flask application:
+   python API.py
+   
+4. The API will be accessible at http://127.0.0.1:5000/:
+	To retrieve all vessels: GET http://127.0.0.1:5000/api/vessels
+	To retrieve vessel data by ID: GET http://127.0.0.1:5000/api/vessel/<vessel_id>
+	To download vessel data as CSV: GET http://127.0.0.1:5000/api/download
+	
+5. The system will automatically listen for incoming AIS messages and store them in the database.
+

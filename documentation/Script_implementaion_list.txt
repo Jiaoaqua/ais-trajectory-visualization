@@ -1,0 +1,84 @@
+==================================================
+List of Scripts Running in the Project
+==================================================
+
+--------------------------------------------------
+1. AIS_data_fetching.py
+--------------------------------------------------
+Description: This Python script connects to a PostgreSQL database, creates a table to store AIS vessel data, and collects the data from an external source. The script ensures that the database structure is set up and provides a continuous flow of AIS data for later use.
+
+Key Functions:
+	Connects to PostgreSQL database
+	Creates tables for storing AIS vessel data
+	Fetches real-time AIS data and stores it in the database
+
+Usage: This script is used to collect and store the most recent vessel data, ensuring that the dataset is always up-to-date for subsequent processes.
+
+--------------------------------------------------
+2. ais_preprocessing.ipynb
+--------------------------------------------------
+Description: This Jupyter notebook is used to clean and preprocess the collected AIS vessel data stored in the PostgreSQL database. It ensures that the data is structured and formatted for machine learning models.
+Key Steps:
+	Loading data from PostgreSQL into a DataFrame
+	Handling missing values and outliers
+	Converting columns (e.g., timestamps, speeds) to appropriate formats
+	Normalizing or scaling data if needed
+	Filtering data based on predefined conditions
+
+Usage: After data collection, this notebook is run to clean the data before feeding it into the machine learning models for prediction.
+
+--------------------------------------------------
+3. AIS_prediction.ipynb
+--------------------------------------------------
+Description: This Jupyter notebook is designed for training and evaluating machine learning models that predict vessel trajectories. The notebook includes:
+	Feature engineering
+	Model selection (e.g., regression, classification)
+	Model evaluation and tuning
+	Predictions on future vessel positions based on historical data
+
+Key Features:
+	Prepares data for model training
+	Trains models (e.g., Random Forest, Linear Regression, etc.)
+	Evaluates model performance (e.g., accuracy, error metrics)
+	Predicts ship trajectories
+
+Usage: After preprocessing, this script is used to build predictive models and forecast future vessel movements. The models are then used for visualization and other analytical tasks.
+
+--------------------------------------------------
+4. app.py
+--------------------------------------------------
+Description: The app.py script is responsible for visualizing and predicting ship trajectories. It implements a Dash-based web application that allows users to view real-time data and predict future vessel positions based on the trained machine learning models.
+Key Features:
+	Real-time data visualization of vessel positions
+	Predictive analytics for ship trajectories
+	Interactive web interface for users to explore vessel data
+	Integration with machine learning models to display predictions
+
+Usage: Run this script to launch a web server and access the interactive dashboard. It provides a platform to explore vessel data and visualize predictions.
+
+--------------------------------------------------
+5. API.py
+--------------------------------------------------
+Description: The API.py script exposes a RESTful API that allows users to query the vessel data stored in the PostgreSQL database and download it in CSV format. The API provides endpoints for:
+	Fetching all vessel data
+	Fetching vessel data by specific ID
+	Downloading data in CSV format for offline analysis
+
+Key Endpoints:
+	/api/vessels – Retrieves all vessel data
+	/api/vessel/<vessel_id> – Retrieves data for a specific vessel by ID
+	/api/download – Allows downloading the data as a CSV file
+
+Usage: This API can be accessed programmatically by external systems to fetch vessel data or export it for further analysis.
+
+--------------------------------------------------
+6. import_csv.py
+--------------------------------------------------
+Description: The import_csv.py script is used to export vessel data from the PostgreSQL database to a CSV file. The exported data is often used for cleaning, training machine learning models, and performing further analysis offline.
+Key Functions:
+	Connects to PostgreSQL database
+	Fetches the required dataset
+	Exports the data to a CSV file format for external use
+
+Usage: This script is used when there is a need to export data from the database for cleaning, model training, or other purposes outside the live system.
+
