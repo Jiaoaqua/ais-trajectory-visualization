@@ -1,0 +1,89 @@
+
+==================================================
+Vessel Data Visualization Update (Turku Region)
+==================================================
+
+Overview:
+This update implements an interactive vessel visualization system for the Turku region. 
+The system provides:
+- Real-time vessel position tracking
+- Heading direction visualization
+- Prediction of vessel position (5 minutes ahead)
+- Interactive vessel filtering
+- Color-coded speed markers
+- Map-based popup info
+
+--------------------------------------------------
+Features Implemented
+--------------------------------------------------
+
+1. Real-Time Vessel Position Tracking
+- Data fetched via MQTT from Digitraffic's live AIS feed.
+- Realtime data is parsed and saved in JSON format every few seconds.
+- Markers are updated every 10 seconds on the map.
+
+2. Vessel Map with Interactive Markers
+- Real-time vessel positions visualized using Dash + Leaflet.js.
+- Color-coded markers based on vessel speed:
+  Blue   : Low speed (≤ 5 knots)
+  Orange : Medium speed (5-15 knots)
+  Red    : High speed (> 15 knots)
+
+3. Prediction Markers
+- Each vessel includes a green marker showing predicted position 5 minutes ahead.
+- Prediction based on trained Random Forest model using current latitude, longitude, speed, heading, and COG.
+
+4. Heading Direction Arrows
+- Red triangle-style arrows indicate the vessel's heading direction.
+- Direction calculated from "heading" value (true heading).
+
+5. Interactive Vessel Dropdown
+- Vessel names populate dropdown automatically based on live data.
+- Users can select one or more vessels to focus on specific ships.
+
+--------------------------------------------------
+Technologies Used
+--------------------------------------------------
+- Dash & Plotly (interactive web framework)
+- Dash Leaflet (real-time maps)
+- Pandas (data handling)
+- Scikit-learn (prediction model)
+- Paho MQTT (live data fetching)
+- JSON (data storage)
+
+--------------------------------------------------
+Known Limitations
+--------------------------------------------------
+
+- Prediction may overshoot if vessel suddenly changes course.
+- Currently using Random Forest model; alternate VARMAX model exists.
+
+--------------------------------------------------
+Next Steps
+--------------------------------------------------
+
+- Evaluate accuracy difference between RF and VARMAX models.
+- Enable basic search function for MMSI or vessel name.
+- Save predictions for validation and evaluation.
+
+--------------------------------------------------
+How to Run the Application
+--------------------------------------------------
+1. Navigate to the project folder:
+   dep_proj_3
+
+2. Activate virtual environment:
+   - Mac/Linux: source venv/bin/activate
+   - Windows: venv\Scripts\activate
+
+3. Run the MQTT data collection:
+   python coding/AIS_data_fetching.py
+
+4. In another terminal, run the Dash app:
+   python coding/app.py
+
+5. Open your browser at:
+   http://127.0.0.1:8050/
+
+--------------------------------------------------
+Date of Update: 2025-03-27

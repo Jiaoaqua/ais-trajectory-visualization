@@ -1,1 +1,2730 @@
-{}
+{
+  "230703000": {
+    "latitude": 59.905685,
+    "longitude": 19.82262,
+    "velocity": 12.3,
+    "heading": 237,
+    "cog": 240.9,
+    "vessel_name": "Vessel_230703000"
+  },
+  "230639000": {
+    "latitude": 60.086955,
+    "longitude": 21.122878,
+    "velocity": 19.2,
+    "heading": 84,
+    "cog": 82.2,
+    "vessel_name": "Vessel_230639000"
+  },
+  "209657000": {
+    "latitude": 60.345175,
+    "longitude": 28.001303,
+    "velocity": 7.7,
+    "heading": 35,
+    "cog": 36.5,
+    "vessel_name": "Vessel_209657000"
+  },
+  "230003110": {
+    "latitude": 64.666337,
+    "longitude": 24.406473,
+    "velocity": 0.0,
+    "heading": 99,
+    "cog": 260.5,
+    "vessel_name": "Vessel_230003110"
+  },
+  "230282000": {
+    "latitude": 61.594997,
+    "longitude": 21.484463,
+    "velocity": 0.0,
+    "heading": 282,
+    "cog": 291.8,
+    "vessel_name": "Vessel_230282000"
+  },
+  "248971000": {
+    "latitude": 59.202613,
+    "longitude": 22.636028,
+    "velocity": 10.8,
+    "heading": 64,
+    "cog": 63.4,
+    "vessel_name": "Vessel_248971000"
+  },
+  "230005750": {
+    "latitude": 65.040473,
+    "longitude": 24.557105,
+    "velocity": 0.0,
+    "heading": 330,
+    "cog": 340.1,
+    "vessel_name": "Vessel_230005750"
+  },
+  "230022010": {
+    "latitude": 60.20569,
+    "longitude": 25.623833,
+    "velocity": 0.0,
+    "heading": 159,
+    "cog": 252.2,
+    "vessel_name": "Vessel_230022010"
+  },
+  "277569000": {
+    "latitude": 59.678393,
+    "longitude": 20.671395,
+    "velocity": 15.8,
+    "heading": 280,
+    "cog": 285.0,
+    "vessel_name": "Vessel_277569000"
+  },
+  "275539000": {
+    "latitude": 62.364937,
+    "longitude": 21.215333,
+    "velocity": 0.0,
+    "heading": 186,
+    "cog": 25.3,
+    "vessel_name": "Vessel_275539000"
+  },
+  "230992670": {
+    "latitude": 60.295928,
+    "longitude": 20.79237,
+    "velocity": 12.9,
+    "heading": 8,
+    "cog": 9.1,
+    "vessel_name": "Vessel_230992670"
+  },
+  "276859000": {
+    "latitude": 59.481937,
+    "longitude": 24.767472,
+    "velocity": 22.8,
+    "heading": 344,
+    "cog": 346.0,
+    "vessel_name": "Vessel_276859000"
+  },
+  "230169030": {
+    "latitude": 60.153027,
+    "longitude": 24.90133,
+    "velocity": 8.5,
+    "heading": 350,
+    "cog": 349.0,
+    "vessel_name": "Vessel_230169030"
+  },
+  "230175040": {
+    "latitude": 60.283203,
+    "longitude": 21.591395,
+    "velocity": 8.9,
+    "heading": 337,
+    "cog": 317.9,
+    "vessel_name": "Vessel_230175040"
+  },
+  "230045250": {
+    "latitude": 59.782248,
+    "longitude": 21.370532,
+    "velocity": 0.0,
+    "heading": 216,
+    "cog": 111.8,
+    "vessel_name": "Vessel_230045250"
+  },
+  "230943350": {
+    "latitude": 60.432473,
+    "longitude": 22.219623,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 0.0,
+    "vessel_name": "Vessel_230943350"
+  },
+  "230914000": {
+    "latitude": 60.10345,
+    "longitude": 20.462343,
+    "velocity": 11.3,
+    "heading": 36,
+    "cog": 39.3,
+    "vessel_name": "Vessel_230914000"
+  },
+  "276504000": {
+    "latitude": 60.158497,
+    "longitude": 24.924543,
+    "velocity": 0.1,
+    "heading": 118,
+    "cog": 116.0,
+    "vessel_name": "Vessel_276504000"
+  },
+  "273317640": {
+    "latitude": 59.9548,
+    "longitude": 28.140383,
+    "velocity": 13.1,
+    "heading": 169,
+    "cog": 171.1,
+    "vessel_name": "Vessel_273317640"
+  },
+  "244997000": {
+    "latitude": 60.356672,
+    "longitude": 26.982792,
+    "velocity": 11.3,
+    "heading": 274,
+    "cog": 275.5,
+    "vessel_name": "Vessel_244997000"
+  },
+  "230035990": {
+    "latitude": 60.290267,
+    "longitude": 20.788343,
+    "velocity": 0.0,
+    "heading": 73,
+    "cog": 341.5,
+    "vessel_name": "Vessel_230035990"
+  },
+  "230992640": {
+    "latitude": 60.155228,
+    "longitude": 21.361787,
+    "velocity": 8.7,
+    "heading": 54,
+    "cog": 64.3,
+    "vessel_name": "Vessel_230992640"
+  },
+  "230983050": {
+    "latitude": 60.436995,
+    "longitude": 22.217463,
+    "velocity": 0.3,
+    "heading": 320,
+    "cog": 106.0,
+    "vessel_name": "Vessel_230983050"
+  },
+  "230980000": {
+    "latitude": 59.858127,
+    "longitude": 21.608905,
+    "velocity": 9.3,
+    "heading": 214,
+    "cog": 214.2,
+    "vessel_name": "Vessel_230980000"
+  },
+  "230992740": {
+    "latitude": 60.45115,
+    "longitude": 22.03236,
+    "velocity": 0.0,
+    "heading": 275,
+    "cog": 0.0,
+    "vessel_name": "Vessel_230992740"
+  },
+  "230093090": {
+    "latitude": 60.236988,
+    "longitude": 26.421297,
+    "velocity": 5.0,
+    "heading": 33,
+    "cog": 37.8,
+    "vessel_name": "Vessel_230093090"
+  },
+  "230943810": {
+    "latitude": 65.67346,
+    "longitude": 24.515878,
+    "velocity": 0.3,
+    "heading": 511,
+    "cog": 238.1,
+    "vessel_name": "Vessel_230943810"
+  },
+  "265612300": {
+    "latitude": 59.748085,
+    "longitude": 19.09635,
+    "velocity": 8.1,
+    "heading": 192,
+    "cog": 190.7,
+    "vessel_name": "Vessel_265612300"
+  },
+  "265054000": {
+    "latitude": 65.600083,
+    "longitude": 23.424523,
+    "velocity": 6.3,
+    "heading": 19,
+    "cog": 18.6,
+    "vessel_name": "Vessel_265054000"
+  },
+  "230662000": {
+    "latitude": 63.303945,
+    "longitude": 20.528322,
+    "velocity": 10.7,
+    "heading": 191,
+    "cog": 189.8,
+    "vessel_name": "Vessel_230662000"
+  },
+  "255804760": {
+    "latitude": 59.63639,
+    "longitude": 23.964662,
+    "velocity": 13.3,
+    "heading": 69,
+    "cog": 70.0,
+    "vessel_name": "Vessel_255804760"
+  },
+  "245413000": {
+    "latitude": 63.202073,
+    "longitude": 20.234585,
+    "velocity": 12.9,
+    "heading": 207,
+    "cog": 208.1,
+    "vessel_name": "Vessel_245413000"
+  },
+  "230946000": {
+    "latitude": 60.311335,
+    "longitude": 25.55233,
+    "velocity": 0.0,
+    "heading": 180,
+    "cog": 122.9,
+    "vessel_name": "Vessel_230946000"
+  },
+  "230706000": {
+    "latitude": 59.53261,
+    "longitude": 21.725647,
+    "velocity": 11.2,
+    "heading": 258,
+    "cog": 262.6,
+    "vessel_name": "Vessel_230706000"
+  },
+  "230645000": {
+    "latitude": 64.509997,
+    "longitude": 23.762343,
+    "velocity": 5.4,
+    "heading": 47,
+    "cog": 46.8,
+    "vessel_name": "Vessel_230645000"
+  },
+  "230051080": {
+    "latitude": 59.913303,
+    "longitude": 22.351167,
+    "velocity": 9.9,
+    "heading": 78,
+    "cog": 74.5,
+    "vessel_name": "Vessel_230051080"
+  },
+  "230011480": {
+    "latitude": 60.503638,
+    "longitude": 21.057295,
+    "velocity": 0.6,
+    "heading": 192,
+    "cog": 190.3,
+    "vessel_name": "Vessel_230011480"
+  },
+  "256800000": {
+    "latitude": 59.492458,
+    "longitude": 24.965175,
+    "velocity": 0.0,
+    "heading": 311,
+    "cog": 311.3,
+    "vessel_name": "Vessel_256800000"
+  },
+  "244554000": {
+    "latitude": 59.859152,
+    "longitude": 19.568735,
+    "velocity": 11.6,
+    "heading": 142,
+    "cog": 142.1,
+    "vessel_name": "Vessel_244554000"
+  },
+  "230111190": {
+    "latitude": 64.220725,
+    "longitude": 23.717278,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 287.3,
+    "vessel_name": "Vessel_230111190"
+  },
+  "230361000": {
+    "latitude": 60.164667,
+    "longitude": 24.963833,
+    "velocity": 0.0,
+    "heading": 303,
+    "cog": 27.1,
+    "vessel_name": "Vessel_230361000"
+  },
+  "276007320": {
+    "latitude": 59.841368,
+    "longitude": 25.661185,
+    "velocity": 10.1,
+    "heading": 79,
+    "cog": 81.6,
+    "vessel_name": "Vessel_276007320"
+  },
+  "230183280": {
+    "latitude": 60.43704,
+    "longitude": 22.218073,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 335.1,
+    "vessel_name": "Vessel_230183280"
+  },
+  "265033420": {
+    "latitude": 59.751882,
+    "longitude": 19.080745,
+    "velocity": 0.0,
+    "heading": 295,
+    "cog": 360.0,
+    "vessel_name": "Vessel_265033420"
+  },
+  "230024660": {
+    "latitude": 60.170353,
+    "longitude": 24.963183,
+    "velocity": 5.6,
+    "heading": 243,
+    "cog": 245.1,
+    "vessel_name": "Vessel_230024660"
+  },
+  "273353940": {
+    "latitude": 59.7719,
+    "longitude": 28.443632,
+    "velocity": 0.0,
+    "heading": 222,
+    "cog": 0.0,
+    "vessel_name": "Vessel_273353940"
+  },
+  "273310710": {
+    "latitude": 60.329348,
+    "longitude": 28.709375,
+    "velocity": 2.2,
+    "heading": 94,
+    "cog": 261.4,
+    "vessel_name": "Vessel_273310710"
+  },
+  "276835000": {
+    "latitude": 59.45756,
+    "longitude": 24.7032,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 249.4,
+    "vessel_name": "Vessel_276835000"
+  },
+  "265767620": {
+    "latitude": 59.663267,
+    "longitude": 18.932517,
+    "velocity": 12.9,
+    "heading": 235,
+    "cog": 236.0,
+    "vessel_name": "Vessel_265767620"
+  },
+  "245656000": {
+    "latitude": 63.729067,
+    "longitude": 21.174383,
+    "velocity": 14.6,
+    "heading": 198,
+    "cog": 199.0,
+    "vessel_name": "Vessel_245656000"
+  },
+  "230642000": {
+    "latitude": 59.280113,
+    "longitude": 21.98231,
+    "velocity": 17.9,
+    "heading": 233,
+    "cog": 232.9,
+    "vessel_name": "Vessel_230642000"
+  },
+  "273292160": {
+    "latitude": 60.046402,
+    "longitude": 27.232747,
+    "velocity": 10.1,
+    "heading": 235,
+    "cog": 239.6,
+    "vessel_name": "Vessel_273292160"
+  },
+  "230938490": {
+    "latitude": 60.437845,
+    "longitude": 22.219162,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 270.4,
+    "vessel_name": "Vessel_230938490"
+  },
+  "210048000": {
+    "latitude": 59.590353,
+    "longitude": 20.152042,
+    "velocity": 11.8,
+    "heading": 314,
+    "cog": 316.5,
+    "vessel_name": "Vessel_210048000"
+  },
+  "276538000": {
+    "latitude": 59.457878,
+    "longitude": 24.707052,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 0.0,
+    "vessel_name": "Vessel_276538000"
+  },
+  "352003965": {
+    "latitude": 58.744737,
+    "longitude": 21.32353,
+    "velocity": 14.0,
+    "heading": 34,
+    "cog": 36.4,
+    "vessel_name": "Vessel_352003965"
+  },
+  "230151230": {
+    "latitude": 60.310887,
+    "longitude": 20.942415,
+    "velocity": 0.2,
+    "heading": 511,
+    "cog": 257.6,
+    "vessel_name": "Vessel_230151230"
+  },
+  "230108590": {
+    "latitude": 60.167413,
+    "longitude": 24.980438,
+    "velocity": 0.0,
+    "heading": 236,
+    "cog": 0.1,
+    "vessel_name": "Vessel_230108590"
+  },
+  "230117660": {
+    "latitude": 60.362817,
+    "longitude": 21.746832,
+    "velocity": 8.7,
+    "heading": 250,
+    "cog": 252.5,
+    "vessel_name": "Vessel_230117660"
+  },
+  "230944110": {
+    "latitude": 61.132848,
+    "longitude": 21.442037,
+    "velocity": 0.0,
+    "heading": 312,
+    "cog": 203.5,
+    "vessel_name": "Vessel_230944110"
+  },
+  "230992610": {
+    "latitude": 60.233413,
+    "longitude": 21.33527,
+    "velocity": 0.0,
+    "heading": 191,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230992610"
+  },
+  "230180470": {
+    "latitude": 59.808828,
+    "longitude": 22.910563,
+    "velocity": 0.1,
+    "heading": 147,
+    "cog": 55.9,
+    "vessel_name": "Vessel_230180470"
+  },
+  "256603000": {
+    "latitude": 59.716305,
+    "longitude": 23.921443,
+    "velocity": 10.7,
+    "heading": 253,
+    "cog": 251.8,
+    "vessel_name": "Vessel_256603000"
+  },
+  "276718000": {
+    "latitude": 60.157658,
+    "longitude": 24.926218,
+    "velocity": 0.1,
+    "heading": 349,
+    "cog": 20.7,
+    "vessel_name": "Vessel_276718000"
+  },
+  "230145760": {
+    "latitude": 61.595093,
+    "longitude": 21.483807,
+    "velocity": 0.0,
+    "heading": 101,
+    "cog": 40.4,
+    "vessel_name": "Vessel_230145760"
+  },
+  "230992210": {
+    "latitude": 62.3493,
+    "longitude": 21.216467,
+    "velocity": 0.0,
+    "heading": 85,
+    "cog": 170.8,
+    "vessel_name": "Vessel_230992210"
+  },
+  "230714000": {
+    "latitude": 60.106017,
+    "longitude": 19.923963,
+    "velocity": 0.0,
+    "heading": 11,
+    "cog": 28.7,
+    "vessel_name": "Vessel_230714000"
+  },
+  "230109170": {
+    "latitude": 63.83846,
+    "longitude": 23.032577,
+    "velocity": 0.0,
+    "heading": 300,
+    "cog": 303.0,
+    "vessel_name": "Vessel_230109170"
+  },
+  "265502100": {
+    "latitude": 59.39339,
+    "longitude": 18.764512,
+    "velocity": 12.1,
+    "heading": 241,
+    "cog": 242.5,
+    "vessel_name": "Vessel_265502100"
+  },
+  "230091290": {
+    "latitude": 60.1541,
+    "longitude": 20.294117,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 64.7,
+    "vessel_name": "Vessel_230091290"
+  },
+  "230981770": {
+    "latitude": 59.78251,
+    "longitude": 21.371403,
+    "velocity": 0.0,
+    "heading": 303,
+    "cog": 219.3,
+    "vessel_name": "Vessel_230981770"
+  },
+  "276015540": {
+    "latitude": 59.455125,
+    "longitude": 24.738058,
+    "velocity": 0.0,
+    "heading": 286,
+    "cog": 0.0,
+    "vessel_name": "Vessel_276015540"
+  },
+  "230992280": {
+    "latitude": 60.79506,
+    "longitude": 21.390373,
+    "velocity": 0.2,
+    "heading": 206,
+    "cog": 255.1,
+    "vessel_name": "Vessel_230992280"
+  },
+  "314218000": {
+    "latitude": 61.094788,
+    "longitude": 20.815815,
+    "velocity": 8.9,
+    "heading": 61,
+    "cog": 56.9,
+    "vessel_name": "Vessel_314218000"
+  },
+  "230022910": {
+    "latitude": 60.236218,
+    "longitude": 22.33105,
+    "velocity": 0.3,
+    "heading": 22,
+    "cog": 1.5,
+    "vessel_name": "Vessel_230022910"
+  },
+  "210359000": {
+    "latitude": 60.215913,
+    "longitude": 25.186288,
+    "velocity": 0.0,
+    "heading": 140,
+    "cog": 360.0,
+    "vessel_name": "Vessel_210359000"
+  },
+  "230113940": {
+    "latitude": 60.472693,
+    "longitude": 26.958548,
+    "velocity": 0.0,
+    "heading": 113,
+    "cog": 46.8,
+    "vessel_name": "Vessel_230113940"
+  },
+  "371737000": {
+    "latitude": 61.27537,
+    "longitude": 20.577045,
+    "velocity": 11.6,
+    "heading": 40,
+    "cog": 39.7,
+    "vessel_name": "Vessel_371737000"
+  },
+  "230180500": {
+    "latitude": 60.20585,
+    "longitude": 25.623723,
+    "velocity": 0.0,
+    "heading": 160,
+    "cog": 98.5,
+    "vessel_name": "Vessel_230180500"
+  },
+  "230992580": {
+    "latitude": 60.114985,
+    "longitude": 20.633462,
+    "velocity": 12.3,
+    "heading": 291,
+    "cog": 294.1,
+    "vessel_name": "Vessel_230992580"
+  },
+  "246000000": {
+    "latitude": 59.285555,
+    "longitude": 19.918032,
+    "velocity": 12.6,
+    "heading": 29,
+    "cog": 31.3,
+    "vessel_name": "Vessel_246000000"
+  },
+  "255805621": {
+    "latitude": 59.446932,
+    "longitude": 22.715328,
+    "velocity": 11.5,
+    "heading": 76,
+    "cog": 75.5,
+    "vessel_name": "Vessel_255805621"
+  },
+  "265618110": {
+    "latitude": 59.811617,
+    "longitude": 19.117563,
+    "velocity": 0.0,
+    "heading": 270,
+    "cog": 279.5,
+    "vessel_name": "Vessel_265618110"
+  },
+  "230343000": {
+    "latitude": 65.0056,
+    "longitude": 25.427785,
+    "velocity": 0.0,
+    "heading": 52,
+    "cog": 176.6,
+    "vessel_name": "Vessel_230343000"
+  },
+  "255805916": {
+    "latitude": 59.374253,
+    "longitude": 20.037152,
+    "velocity": 11.1,
+    "heading": 30,
+    "cog": 33.2,
+    "vessel_name": "Vessel_255805916"
+  },
+  "230046580": {
+    "latitude": 60.080678,
+    "longitude": 19.934113,
+    "velocity": 0.0,
+    "heading": 354,
+    "cog": 179.8,
+    "vessel_name": "Vessel_230046580"
+  },
+  "230987550": {
+    "latitude": 60.485483,
+    "longitude": 21.434242,
+    "velocity": 0.0,
+    "heading": 123,
+    "cog": 121.3,
+    "vessel_name": "Vessel_230987550"
+  },
+  "230110440": {
+    "latitude": 59.920837,
+    "longitude": 22.412363,
+    "velocity": 0.0,
+    "heading": 337,
+    "cog": 334.5,
+    "vessel_name": "Vessel_230110440"
+  },
+  "230715000": {
+    "latitude": 65.752473,
+    "longitude": 24.157563,
+    "velocity": 0.0,
+    "heading": 56,
+    "cog": 49.8,
+    "vessel_name": "Vessel_230715000"
+  },
+  "245176000": {
+    "latitude": 59.75934,
+    "longitude": 24.817687,
+    "velocity": 10.3,
+    "heading": 77,
+    "cog": 76.4,
+    "vessel_name": "Vessel_245176000"
+  },
+  "230111180": {
+    "latitude": 62.349297,
+    "longitude": 21.21615,
+    "velocity": 0.0,
+    "heading": 263,
+    "cog": 57.3,
+    "vessel_name": "Vessel_230111180"
+  },
+  "266232000": {
+    "latitude": 61.646358,
+    "longitude": 19.605037,
+    "velocity": 15.4,
+    "heading": 13,
+    "cog": 13.0,
+    "vessel_name": "Vessel_266232000"
+  },
+  "636021344": {
+    "latitude": 60.331015,
+    "longitude": 28.71069,
+    "velocity": 0.3,
+    "heading": 160,
+    "cog": 360.0,
+    "vessel_name": "Vessel_636021344"
+  },
+  "230988890": {
+    "latitude": 63.838372,
+    "longitude": 23.032345,
+    "velocity": 0.0,
+    "heading": 302,
+    "cog": 143.1,
+    "vessel_name": "Vessel_230988890"
+  },
+  "212209000": {
+    "latitude": 59.911488,
+    "longitude": 25.6363,
+    "velocity": 11.5,
+    "heading": 256,
+    "cog": 257.3,
+    "vessel_name": "Vessel_212209000"
+  },
+  "230990040": {
+    "latitude": 65.647213,
+    "longitude": 24.643018,
+    "velocity": 0.0,
+    "heading": 77,
+    "cog": 75.2,
+    "vessel_name": "Vessel_230990040"
+  },
+  "276005340": {
+    "latitude": 59.457945,
+    "longitude": 24.717523,
+    "velocity": 0.1,
+    "heading": 35,
+    "cog": 129.9,
+    "vessel_name": "Vessel_276005340"
+  },
+  "230992970": {
+    "latitude": 60.449228,
+    "longitude": 26.969113,
+    "velocity": 8.9,
+    "heading": 195,
+    "cog": 195.6,
+    "vessel_name": "Vessel_230992970"
+  },
+  "230041000": {
+    "latitude": 59.678615,
+    "longitude": 18.968628,
+    "velocity": 20.1,
+    "heading": 227,
+    "cog": 228.6,
+    "vessel_name": "Vessel_230041000"
+  },
+  "230110310": {
+    "latitude": 60.435125,
+    "longitude": 22.205655,
+    "velocity": 0.0,
+    "heading": 301,
+    "cog": 23.5,
+    "vessel_name": "Vessel_230110310"
+  },
+  "211911000": {
+    "latitude": 59.346078,
+    "longitude": 21.566702,
+    "velocity": 5.9,
+    "heading": 25,
+    "cog": 27.3,
+    "vessel_name": "Vessel_211911000"
+  },
+  "275517000": {
+    "latitude": 60.088095,
+    "longitude": 24.893553,
+    "velocity": 9.9,
+    "heading": 265,
+    "cog": 256.1,
+    "vessel_name": "Vessel_275517000"
+  },
+  "210607000": {
+    "latitude": 59.641765,
+    "longitude": 23.500512,
+    "velocity": 10.1,
+    "heading": 253,
+    "cog": 252.9,
+    "vessel_name": "Vessel_210607000"
+  },
+  "230111090": {
+    "latitude": 60.46157,
+    "longitude": 26.963548,
+    "velocity": 0.0,
+    "heading": 209,
+    "cog": 342.6,
+    "vessel_name": "Vessel_230111090"
+  },
+  "241143000": {
+    "latitude": 59.813358,
+    "longitude": 24.614172,
+    "velocity": 11.4,
+    "heading": 258,
+    "cog": 258.4,
+    "vessel_name": "Vessel_241143000"
+  },
+  "265314000": {
+    "latitude": 63.695953,
+    "longitude": 20.346865,
+    "velocity": 0.0,
+    "heading": 115,
+    "cog": 233.9,
+    "vessel_name": "Vessel_265314000"
+  },
+  "273336380": {
+    "latitude": 60.621027,
+    "longitude": 28.557858,
+    "velocity": 0.0,
+    "heading": 334,
+    "cog": 286.8,
+    "vessel_name": "Vessel_273336380"
+  },
+  "265676640": {
+    "latitude": 59.658908,
+    "longitude": 18.857853,
+    "velocity": 6.3,
+    "heading": 511,
+    "cog": 203.2,
+    "vessel_name": "Vessel_265676640"
+  },
+  "230018240": {
+    "latitude": 62.349355,
+    "longitude": 21.216288,
+    "velocity": 0.0,
+    "heading": 81,
+    "cog": 116.6,
+    "vessel_name": "Vessel_230018240"
+  },
+  "273611990": {
+    "latitude": 59.956933,
+    "longitude": 26.435162,
+    "velocity": 10.0,
+    "heading": 73,
+    "cog": 72.5,
+    "vessel_name": "Vessel_273611990"
+  },
+  "230938660": {
+    "latitude": 60.270248,
+    "longitude": 22.308385,
+    "velocity": 0.0,
+    "heading": 356,
+    "cog": 20.2,
+    "vessel_name": "Vessel_230938660"
+  },
+  "265593530": {
+    "latitude": 59.752135,
+    "longitude": 19.080645,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 307.9,
+    "vessel_name": "Vessel_265593530"
+  },
+  "230707000": {
+    "latitude": 60.30544,
+    "longitude": 25.551907,
+    "velocity": 0.0,
+    "heading": 198,
+    "cog": 343.1,
+    "vessel_name": "Vessel_230707000"
+  },
+  "276829000": {
+    "latitude": 60.100378,
+    "longitude": 24.901462,
+    "velocity": 15.9,
+    "heading": 188,
+    "cog": 186.0,
+    "vessel_name": "Vessel_276829000"
+  },
+  "230161450": {
+    "latitude": 60.796397,
+    "longitude": 21.376813,
+    "velocity": 0.0,
+    "heading": 42,
+    "cog": 263.0,
+    "vessel_name": "Vessel_230161450"
+  },
+  "636020528": {
+    "latitude": 59.3384,
+    "longitude": 22.05785,
+    "velocity": 9.3,
+    "heading": 230,
+    "cog": 231.0,
+    "vessel_name": "Vessel_636020528"
+  },
+  "230128800": {
+    "latitude": 59.928053,
+    "longitude": 22.183268,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230128800"
+  },
+  "230939370": {
+    "latitude": 60.467192,
+    "longitude": 21.693948,
+    "velocity": 0.0,
+    "heading": 56,
+    "cog": 134.5,
+    "vessel_name": "Vessel_230939370"
+  },
+  "230711000": {
+    "latitude": 61.133137,
+    "longitude": 21.441385,
+    "velocity": 0.0,
+    "heading": 314,
+    "cog": 198.4,
+    "vessel_name": "Vessel_230711000"
+  },
+  "230940100": {
+    "latitude": 60.2153,
+    "longitude": 20.71051,
+    "velocity": 0.0,
+    "heading": 59,
+    "cog": 129.5,
+    "vessel_name": "Vessel_230940100"
+  },
+  "538005278": {
+    "latitude": 61.58432,
+    "longitude": 21.1665,
+    "velocity": 6.0,
+    "heading": 90,
+    "cog": 93.0,
+    "vessel_name": "Vessel_538005278"
+  },
+  "304095000": {
+    "latitude": 60.033567,
+    "longitude": 28.985203,
+    "velocity": 13.4,
+    "heading": 96,
+    "cog": 95.5,
+    "vessel_name": "Vessel_304095000"
+  },
+  "230061400": {
+    "latitude": 60.375255,
+    "longitude": 20.088107,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 239.1,
+    "vessel_name": "Vessel_230061400"
+  },
+  "314703000": {
+    "latitude": 59.860433,
+    "longitude": 25.615723,
+    "velocity": 9.6,
+    "heading": 76,
+    "cog": 77.1,
+    "vessel_name": "Vessel_314703000"
+  },
+  "230011290": {
+    "latitude": 63.081368,
+    "longitude": 21.571903,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 313.7,
+    "vessel_name": "Vessel_230011290"
+  },
+  "230997150": {
+    "latitude": 60.337465,
+    "longitude": 25.578197,
+    "velocity": 0.0,
+    "heading": 22,
+    "cog": 215.9,
+    "vessel_name": "Vessel_230997150"
+  },
+  "636017150": {
+    "latitude": 60.42632,
+    "longitude": 26.921913,
+    "velocity": 0.0,
+    "heading": 311,
+    "cog": 347.0,
+    "vessel_name": "Vessel_636017150"
+  },
+  "244150516": {
+    "latitude": 63.551983,
+    "longitude": 20.840267,
+    "velocity": 7.6,
+    "heading": 257,
+    "cog": 255.2,
+    "vessel_name": "Vessel_244150516"
+  },
+  "352004960": {
+    "latitude": 60.313287,
+    "longitude": 28.714177,
+    "velocity": 3.5,
+    "heading": 330,
+    "cog": 333.2,
+    "vessel_name": "Vessel_352004960"
+  },
+  "257643000": {
+    "latitude": 62.060635,
+    "longitude": 19.793427,
+    "velocity": 10.3,
+    "heading": 171,
+    "cog": 171.1,
+    "vessel_name": "Vessel_257643000"
+  },
+  "265066000": {
+    "latitude": 65.752898,
+    "longitude": 23.324305,
+    "velocity": 0.0,
+    "heading": 174,
+    "cog": 323.6,
+    "vessel_name": "Vessel_265066000"
+  },
+  "230987260": {
+    "latitude": 60.195922,
+    "longitude": 22.26201,
+    "velocity": 5.8,
+    "heading": 34,
+    "cog": 9.2,
+    "vessel_name": "Vessel_230987260"
+  },
+  "304099000": {
+    "latitude": 59.566527,
+    "longitude": 23.537605,
+    "velocity": 9.9,
+    "heading": 70,
+    "cog": 72.1,
+    "vessel_name": "Vessel_304099000"
+  },
+  "230712000": {
+    "latitude": 59.873352,
+    "longitude": 19.510835,
+    "velocity": 14.6,
+    "heading": 141,
+    "cog": 140.0,
+    "vessel_name": "Vessel_230712000"
+  },
+  "230086510": {
+    "latitude": 60.076253,
+    "longitude": 20.527142,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230086510"
+  },
+  "352004686": {
+    "latitude": 60.166438,
+    "longitude": 27.85214,
+    "velocity": 12.1,
+    "heading": 105,
+    "cog": 104.2,
+    "vessel_name": "Vessel_352004686"
+  },
+  "255620000": {
+    "latitude": 62.31944,
+    "longitude": 19.897473,
+    "velocity": 10.6,
+    "heading": 194,
+    "cog": 195.1,
+    "vessel_name": "Vessel_255620000"
+  },
+  "230634000": {
+    "latitude": 60.185578,
+    "longitude": 21.584987,
+    "velocity": 0.0,
+    "heading": 134,
+    "cog": 129.6,
+    "vessel_name": "Vessel_230634000"
+  },
+  "273335380": {
+    "latitude": 60.615108,
+    "longitude": 28.564097,
+    "velocity": 0.0,
+    "heading": 335,
+    "cog": 292.2,
+    "vessel_name": "Vessel_273335380"
+  },
+  "230109470": {
+    "latitude": 59.80887,
+    "longitude": 22.91082,
+    "velocity": 0.0,
+    "heading": 158,
+    "cog": 276.2,
+    "vessel_name": "Vessel_230109470"
+  },
+  "265587000": {
+    "latitude": 59.752123,
+    "longitude": 19.081627,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 321.6,
+    "vessel_name": "Vessel_265587000"
+  },
+  "265022370": {
+    "latitude": 60.33964,
+    "longitude": 18.442628,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 360.0,
+    "vessel_name": "Vessel_265022370"
+  },
+  "266308000": {
+    "latitude": 60.107027,
+    "longitude": 18.960172,
+    "velocity": 13.9,
+    "heading": 76,
+    "cog": 75.6,
+    "vessel_name": "Vessel_266308000"
+  },
+  "230008800": {
+    "latitude": 61.59408,
+    "longitude": 21.463785,
+    "velocity": 0.0,
+    "heading": 172,
+    "cog": 245.7,
+    "vessel_name": "Vessel_230008800"
+  },
+  "276010230": {
+    "latitude": 59.644657,
+    "longitude": 25.755785,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 360.0,
+    "vessel_name": "Vessel_276010230"
+  },
+  "230947000": {
+    "latitude": 60.31052,
+    "longitude": 25.552262,
+    "velocity": 0.0,
+    "heading": 180,
+    "cog": 273.5,
+    "vessel_name": "Vessel_230947000"
+  },
+  "245097000": {
+    "latitude": 61.112963,
+    "longitude": 21.209758,
+    "velocity": 20.2,
+    "heading": 298,
+    "cog": 298.6,
+    "vessel_name": "Vessel_245097000"
+  },
+  "636017570": {
+    "latitude": 59.629755,
+    "longitude": 23.484888,
+    "velocity": 13.3,
+    "heading": 254,
+    "cog": 255.8,
+    "vessel_name": "Vessel_636017570"
+  },
+  "244130641": {
+    "latitude": 60.278097,
+    "longitude": 18.988652,
+    "velocity": 9.8,
+    "heading": 169,
+    "cog": 168.1,
+    "vessel_name": "Vessel_244130641"
+  },
+  "352003744": {
+    "latitude": 60.036947,
+    "longitude": 27.223633,
+    "velocity": 12.9,
+    "heading": 241,
+    "cog": 241.0,
+    "vessel_name": "Vessel_352003744"
+  },
+  "230040000": {
+    "latitude": 63.087665,
+    "longitude": 21.553892,
+    "velocity": 0.0,
+    "heading": 78,
+    "cog": 356.8,
+    "vessel_name": "Vessel_230040000"
+  },
+  "231023000": {
+    "latitude": 59.825978,
+    "longitude": 19.584743,
+    "velocity": 10.5,
+    "heading": 144,
+    "cog": 140.2,
+    "vessel_name": "Vessel_231023000"
+  },
+  "230091080": {
+    "latitude": 60.1053,
+    "longitude": 24.9742,
+    "velocity": 0.0,
+    "heading": 15,
+    "cog": 5.6,
+    "vessel_name": "Vessel_230091080"
+  },
+  "230938590": {
+    "latitude": 60.444387,
+    "longitude": 22.25389,
+    "velocity": 0.0,
+    "heading": 235,
+    "cog": 341.1,
+    "vessel_name": "Vessel_230938590"
+  },
+  "230987000": {
+    "latitude": 59.871888,
+    "longitude": 24.643232,
+    "velocity": 19.9,
+    "heading": 250,
+    "cog": 249.4,
+    "vessel_name": "Vessel_230987000"
+  },
+  "244689000": {
+    "latitude": 61.528193,
+    "longitude": 19.579495,
+    "velocity": 12.5,
+    "heading": 17,
+    "cog": 15.7,
+    "vessel_name": "Vessel_244689000"
+  },
+  "413256540": {
+    "latitude": 59.21784,
+    "longitude": 22.11788,
+    "velocity": 11.6,
+    "heading": 53,
+    "cog": 52.8,
+    "vessel_name": "Vessel_413256540"
+  },
+  "668116154": {
+    "latitude": 59.856243,
+    "longitude": 25.680117,
+    "velocity": 9.9,
+    "heading": 77,
+    "cog": 78.4,
+    "vessel_name": "Vessel_668116154"
+  },
+  "244017000": {
+    "latitude": 63.286713,
+    "longitude": 20.034122,
+    "velocity": 14.5,
+    "heading": 79,
+    "cog": 76.2,
+    "vessel_name": "Vessel_244017000"
+  },
+  "230980670": {
+    "latitude": 65.673667,
+    "longitude": 24.514963,
+    "velocity": 0.0,
+    "heading": 197,
+    "cog": 324.7,
+    "vessel_name": "Vessel_230980670"
+  },
+  "265546940": {
+    "latitude": 59.662812,
+    "longitude": 18.925872,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 360.0,
+    "vessel_name": "Vessel_265546940"
+  },
+  "276824000": {
+    "latitude": 59.458517,
+    "longitude": 24.658567,
+    "velocity": 0.0,
+    "heading": 211,
+    "cog": 293.9,
+    "vessel_name": "Vessel_276824000"
+  },
+  "273298320": {
+    "latitude": 60.410382,
+    "longitude": 28.109962,
+    "velocity": 10.7,
+    "heading": 69,
+    "cog": 68.6,
+    "vessel_name": "Vessel_273298320"
+  },
+  "230125910": {
+    "latitude": 60.169658,
+    "longitude": 24.96442,
+    "velocity": 0.0,
+    "heading": 92,
+    "cog": 135.1,
+    "vessel_name": "Vessel_230125910"
+  },
+  "230949000": {
+    "latitude": 61.844165,
+    "longitude": 28.944498,
+    "velocity": 0.0,
+    "heading": 0,
+    "cog": 60.7,
+    "vessel_name": "Vessel_230949000"
+  },
+  "273350380": {
+    "latitude": 60.603487,
+    "longitude": 28.546908,
+    "velocity": 0.0,
+    "heading": 244,
+    "cog": 319.4,
+    "vessel_name": "Vessel_273350380"
+  },
+  "255802660": {
+    "latitude": 60.081623,
+    "longitude": 19.270572,
+    "velocity": 10.3,
+    "heading": 320,
+    "cog": 321.2,
+    "vessel_name": "Vessel_255802660"
+  },
+  "230704000": {
+    "latitude": 60.083923,
+    "longitude": 20.811027,
+    "velocity": 15.4,
+    "heading": 114,
+    "cog": 109.6,
+    "vessel_name": "Vessel_230704000"
+  },
+  "230991258": {
+    "latitude": 60.46048,
+    "longitude": 26.96368,
+    "velocity": 1.7,
+    "heading": 511,
+    "cog": 352.5,
+    "vessel_name": "Vessel_230991258"
+  },
+  "230155950": {
+    "latitude": 60.442443,
+    "longitude": 22.152443,
+    "velocity": 0.0,
+    "heading": 191,
+    "cog": 16.4,
+    "vessel_name": "Vessel_230155950"
+  },
+  "241614000": {
+    "latitude": 59.699877,
+    "longitude": 28.426662,
+    "velocity": 0.0,
+    "heading": 0,
+    "cog": 292.3,
+    "vessel_name": "Vessel_241614000"
+  },
+  "275504000": {
+    "latitude": 60.083247,
+    "longitude": 19.292657,
+    "velocity": 9.8,
+    "heading": 316,
+    "cog": 320.3,
+    "vessel_name": "Vessel_275504000"
+  },
+  "229715000": {
+    "latitude": 59.522405,
+    "longitude": 22.586368,
+    "velocity": 11.8,
+    "heading": 252,
+    "cog": 253.1,
+    "vessel_name": "Vessel_229715000"
+  },
+  "230934000": {
+    "latitude": 59.646913,
+    "longitude": 24.720278,
+    "velocity": 4.4,
+    "heading": 262,
+    "cog": 261.3,
+    "vessel_name": "Vessel_230934000"
+  },
+  "230938570": {
+    "latitude": 60.816925,
+    "longitude": 21.114383,
+    "velocity": 6.5,
+    "heading": 168,
+    "cog": 167.8,
+    "vessel_name": "Vessel_230938570"
+  },
+  "273397140": {
+    "latitude": 60.618567,
+    "longitude": 28.560428,
+    "velocity": 0.0,
+    "heading": 145,
+    "cog": 360.0,
+    "vessel_name": "Vessel_273397140"
+  },
+  "253377000": {
+    "latitude": 63.084452,
+    "longitude": 21.557132,
+    "velocity": 0.0,
+    "heading": 125,
+    "cog": 222.6,
+    "vessel_name": "Vessel_253377000"
+  },
+  "230099950": {
+    "latitude": 60.10518,
+    "longitude": 24.974562,
+    "velocity": 0.0,
+    "heading": 28,
+    "cog": 114.3,
+    "vessel_name": "Vessel_230099950"
+  },
+  "412705880": {
+    "latitude": 59.293557,
+    "longitude": 22.280828,
+    "velocity": 15.1,
+    "heading": 53,
+    "cog": 53.8,
+    "vessel_name": "Vessel_412705880"
+  },
+  "230980380": {
+    "latitude": 65.00584,
+    "longitude": 25.428258,
+    "velocity": 0.0,
+    "heading": 56,
+    "cog": 138.0,
+    "vessel_name": "Vessel_230980380"
+  },
+  "246845000": {
+    "latitude": 61.970283,
+    "longitude": 19.706383,
+    "velocity": 8.9,
+    "heading": 194,
+    "cog": 192.4,
+    "vessel_name": "Vessel_246845000"
+  },
+  "305465000": {
+    "latitude": 59.459063,
+    "longitude": 24.704812,
+    "velocity": 0.0,
+    "heading": 288,
+    "cog": 0.0,
+    "vessel_name": "Vessel_305465000"
+  },
+  "230629000": {
+    "latitude": 60.096852,
+    "longitude": 20.691182,
+    "velocity": 18.2,
+    "heading": 82,
+    "cog": 82.5,
+    "vessel_name": "Vessel_230629000"
+  },
+  "230052810": {
+    "latitude": 62.936822,
+    "longitude": 21.18489,
+    "velocity": 5.7,
+    "heading": 154,
+    "cog": 152.2,
+    "vessel_name": "Vessel_230052810"
+  },
+  "255806444": {
+    "latitude": 58.324957,
+    "longitude": 21.454428,
+    "velocity": 9.8,
+    "heading": 196,
+    "cog": 194.1,
+    "vessel_name": "Vessel_255806444"
+  },
+  "230628000": {
+    "latitude": 59.733092,
+    "longitude": 24.71166,
+    "velocity": 21.7,
+    "heading": 200,
+    "cog": 200.9,
+    "vessel_name": "Vessel_230628000"
+  },
+  "265732720": {
+    "latitude": 60.173122,
+    "longitude": 18.8069,
+    "velocity": 0.0,
+    "heading": 166,
+    "cog": 130.4,
+    "vessel_name": "Vessel_265732720"
+  },
+  "276847000": {
+    "latitude": 59.49721,
+    "longitude": 24.940422,
+    "velocity": 0.0,
+    "heading": 192,
+    "cog": 140.4,
+    "vessel_name": "Vessel_276847000"
+  },
+  "230033880": {
+    "latitude": 60.105013,
+    "longitude": 24.974288,
+    "velocity": 0.0,
+    "heading": 215,
+    "cog": 316.7,
+    "vessel_name": "Vessel_230033880"
+  },
+  "230988090": {
+    "latitude": 60.111783,
+    "longitude": 19.9246,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 51.3,
+    "vessel_name": "Vessel_230988090"
+  },
+  "630001147": {
+    "latitude": 59.844348,
+    "longitude": 25.53954,
+    "velocity": 10.8,
+    "heading": 78,
+    "cog": 79.2,
+    "vessel_name": "Vessel_630001147"
+  },
+  "255806192": {
+    "latitude": 59.335927,
+    "longitude": 19.997565,
+    "velocity": 11.7,
+    "heading": 35,
+    "cog": 37.3,
+    "vessel_name": "Vessel_255806192"
+  },
+  "230991010": {
+    "latitude": 60.436912,
+    "longitude": 22.23875,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 232.9,
+    "vessel_name": "Vessel_230991010"
+  },
+  "230286000": {
+    "latitude": 60.310975,
+    "longitude": 25.552203,
+    "velocity": 0.0,
+    "heading": 182,
+    "cog": 252.9,
+    "vessel_name": "Vessel_230286000"
+  },
+  "273434680": {
+    "latitude": 60.332553,
+    "longitude": 28.696528,
+    "velocity": 7.5,
+    "heading": 298,
+    "cog": 291.5,
+    "vessel_name": "Vessel_273434680"
+  },
+  "244338000": {
+    "latitude": 60.981097,
+    "longitude": 19.197018,
+    "velocity": 11.1,
+    "heading": 190,
+    "cog": 191.2,
+    "vessel_name": "Vessel_244338000"
+  },
+  "230052840": {
+    "latitude": 62.391673,
+    "longitude": 29.568213,
+    "velocity": 3.2,
+    "heading": 27,
+    "cog": 30.8,
+    "vessel_name": "Vessel_230052840"
+  },
+  "636022766": {
+    "latitude": 59.845053,
+    "longitude": 25.83877,
+    "velocity": 9.8,
+    "heading": 88,
+    "cog": 91.2,
+    "vessel_name": "Vessel_636022766"
+  },
+  "230982010": {
+    "latitude": 63.21175,
+    "longitude": 21.142415,
+    "velocity": 0.0,
+    "heading": 296,
+    "cog": 206.6,
+    "vessel_name": "Vessel_230982010"
+  },
+  "265514760": {
+    "latitude": 60.173038,
+    "longitude": 18.807098,
+    "velocity": 0.2,
+    "heading": 346,
+    "cog": 205.9,
+    "vessel_name": "Vessel_265514760"
+  },
+  "230341000": {
+    "latitude": 60.083192,
+    "longitude": 21.003717,
+    "velocity": 13.2,
+    "heading": 90,
+    "cog": 86.9,
+    "vessel_name": "Vessel_230341000"
+  },
+  "230993760": {
+    "latitude": 60.316715,
+    "longitude": 20.996023,
+    "velocity": 0.0,
+    "heading": 295,
+    "cog": 296.9,
+    "vessel_name": "Vessel_230993760"
+  },
+  "273350170": {
+    "latitude": 59.76292,
+    "longitude": 28.407265,
+    "velocity": 9.7,
+    "heading": 11,
+    "cog": 10.2,
+    "vessel_name": "Vessel_273350170"
+  },
+  "636024741": {
+    "latitude": 59.708153,
+    "longitude": 24.322362,
+    "velocity": 7.2,
+    "heading": 70,
+    "cog": 70.0,
+    "vessel_name": "Vessel_636024741"
+  },
+  "230110880": {
+    "latitude": 61.055897,
+    "longitude": 28.332727,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 304.3,
+    "vessel_name": "Vessel_230110880"
+  },
+  "538010840": {
+    "latitude": 59.771035,
+    "longitude": 24.836833,
+    "velocity": 10.8,
+    "heading": 76,
+    "cog": 76.2,
+    "vessel_name": "Vessel_538010840"
+  },
+  "265762770": {
+    "latitude": 59.414033,
+    "longitude": 18.5069,
+    "velocity": 7.6,
+    "heading": 109,
+    "cog": 106.2,
+    "vessel_name": "Vessel_265762770"
+  },
+  "230151590": {
+    "latitude": 61.126565,
+    "longitude": 21.444792,
+    "velocity": 0.1,
+    "heading": 10,
+    "cog": 105.2,
+    "vessel_name": "Vessel_230151590"
+  },
+  "230664000": {
+    "latitude": 60.441927,
+    "longitude": 22.152398,
+    "velocity": 0.0,
+    "heading": 10,
+    "cog": 309.1,
+    "vessel_name": "Vessel_230664000"
+  },
+  "230046600": {
+    "latitude": 60.316787,
+    "longitude": 20.996198,
+    "velocity": 0.0,
+    "heading": 292,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230046600"
+  },
+  "230044260": {
+    "latitude": 60.145942,
+    "longitude": 24.983652,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 0.0,
+    "vessel_name": "Vessel_230044260"
+  },
+  "230980160": {
+    "latitude": 60.0802,
+    "longitude": 19.934292,
+    "velocity": 0.0,
+    "heading": 263,
+    "cog": 321.3,
+    "vessel_name": "Vessel_230980160"
+  },
+  "230987160": {
+    "latitude": 64.666485,
+    "longitude": 24.407142,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 8.0,
+    "vessel_name": "Vessel_230987160"
+  },
+  "538006340": {
+    "latitude": 60.178585,
+    "longitude": 27.794358,
+    "velocity": 10.6,
+    "heading": 105,
+    "cog": 99.7,
+    "vessel_name": "Vessel_538006340"
+  },
+  "667002409": {
+    "latitude": 59.934485,
+    "longitude": 28.657658,
+    "velocity": 0.0,
+    "heading": 226,
+    "cog": 330.2,
+    "vessel_name": "Vessel_667002409"
+  },
+  "230125940": {
+    "latitude": 60.2057,
+    "longitude": 25.62405,
+    "velocity": 0.0,
+    "heading": 156,
+    "cog": 43.4,
+    "vessel_name": "Vessel_230125940"
+  },
+  "230046140": {
+    "latitude": 60.160773,
+    "longitude": 21.691215,
+    "velocity": 0.0,
+    "heading": 346,
+    "cog": 162.7,
+    "vessel_name": "Vessel_230046140"
+  },
+  "276869000": {
+    "latitude": 59.458825,
+    "longitude": 24.716113,
+    "velocity": 0.0,
+    "heading": 165,
+    "cog": 4.8,
+    "vessel_name": "Vessel_276869000"
+  },
+  "276858000": {
+    "latitude": 60.474502,
+    "longitude": 26.95213,
+    "velocity": 0.0,
+    "heading": 291,
+    "cog": 270.7,
+    "vessel_name": "Vessel_276858000"
+  },
+  "305284000": {
+    "latitude": 59.477978,
+    "longitude": 23.576788,
+    "velocity": 9.7,
+    "heading": 60,
+    "cog": 59.6,
+    "vessel_name": "Vessel_305284000"
+  },
+  "230081290": {
+    "latitude": 61.126487,
+    "longitude": 21.444608,
+    "velocity": 0.0,
+    "heading": 254,
+    "cog": 262.5,
+    "vessel_name": "Vessel_230081290"
+  },
+  "477168600": {
+    "latitude": 62.584927,
+    "longitude": 19.973952,
+    "velocity": 10.4,
+    "heading": 192,
+    "cog": 192.3,
+    "vessel_name": "Vessel_477168600"
+  },
+  "230060890": {
+    "latitude": 60.275182,
+    "longitude": 26.445453,
+    "velocity": 0.0,
+    "heading": 220,
+    "cog": 48.2,
+    "vessel_name": "Vessel_230060890"
+  },
+  "258045000": {
+    "latitude": 58.964397,
+    "longitude": 21.594297,
+    "velocity": 11.8,
+    "heading": 33,
+    "cog": 35.4,
+    "vessel_name": "Vessel_258045000"
+  },
+  "230192000": {
+    "latitude": 60.471298,
+    "longitude": 26.946932,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 312.3,
+    "vessel_name": "Vessel_230192000"
+  },
+  "265604490": {
+    "latitude": 59.648693,
+    "longitude": 18.938193,
+    "velocity": 0.1,
+    "heading": 88,
+    "cog": 360.0,
+    "vessel_name": "Vessel_265604490"
+  },
+  "266471000": {
+    "latitude": 59.989017,
+    "longitude": 21.6993,
+    "velocity": 13.3,
+    "heading": 0,
+    "cog": 0.3,
+    "vessel_name": "Vessel_266471000"
+  },
+  "244030629": {
+    "latitude": 61.709247,
+    "longitude": 19.624652,
+    "velocity": 11.6,
+    "heading": 16,
+    "cog": 14.7,
+    "vessel_name": "Vessel_244030629"
+  },
+  "265623130": {
+    "latitude": 59.719102,
+    "longitude": 19.069275,
+    "velocity": 0.0,
+    "heading": 262,
+    "cog": 345.3,
+    "vessel_name": "Vessel_265623130"
+  },
+  "230252000": {
+    "latitude": 64.647762,
+    "longitude": 24.026242,
+    "velocity": 0.2,
+    "heading": 183,
+    "cog": 59.5,
+    "vessel_name": "Vessel_230252000"
+  },
+  "309368000": {
+    "latitude": 58.367383,
+    "longitude": 20.7657,
+    "velocity": 6.4,
+    "heading": 37,
+    "cog": 33.0,
+    "vessel_name": "Vessel_309368000"
+  },
+  "230025470": {
+    "latitude": 61.079308,
+    "longitude": 28.2743,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 9.0,
+    "vessel_name": "Vessel_230025470"
+  },
+  "230985490": {
+    "latitude": 60.16278,
+    "longitude": 24.967838,
+    "velocity": 8.5,
+    "heading": 291,
+    "cog": 294.5,
+    "vessel_name": "Vessel_230985490"
+  },
+  "230981050": {
+    "latitude": 65.037305,
+    "longitude": 25.068717,
+    "velocity": 0.0,
+    "heading": 301,
+    "cog": 296.6,
+    "vessel_name": "Vessel_230981050"
+  },
+  "230167080": {
+    "latitude": 64.222362,
+    "longitude": 23.715875,
+    "velocity": 0.0,
+    "heading": 325,
+    "cog": 216.4,
+    "vessel_name": "Vessel_230167080"
+  },
+  "273613220": {
+    "latitude": 60.108832,
+    "longitude": 29.331538,
+    "velocity": 0.0,
+    "heading": 319,
+    "cog": 360.0,
+    "vessel_name": "Vessel_273613220"
+  },
+  "230162620": {
+    "latitude": 60.2251,
+    "longitude": 25.487755,
+    "velocity": 6.6,
+    "heading": 210,
+    "cog": 206.0,
+    "vessel_name": "Vessel_230162620"
+  },
+  "266469000": {
+    "latitude": 58.254845,
+    "longitude": 18.38768,
+    "velocity": 11.8,
+    "heading": 207,
+    "cog": 205.0,
+    "vessel_name": "Vessel_266469000"
+  },
+  "276342000": {
+    "latitude": 59.45591,
+    "longitude": 24.701297,
+    "velocity": 0.1,
+    "heading": 511,
+    "cog": 7.6,
+    "vessel_name": "Vessel_276342000"
+  },
+  "230038800": {
+    "latitude": 60.169687,
+    "longitude": 24.964443,
+    "velocity": 0.0,
+    "heading": 97,
+    "cog": 355.7,
+    "vessel_name": "Vessel_230038800"
+  },
+  "273335020": {
+    "latitude": 59.71244,
+    "longitude": 28.39445,
+    "velocity": 9.2,
+    "heading": 511,
+    "cog": 351.4,
+    "vessel_name": "Vessel_273335020"
+  },
+  "230289000": {
+    "latitude": 65.141062,
+    "longitude": 24.917088,
+    "velocity": 10.0,
+    "heading": 279,
+    "cog": 278.9,
+    "vessel_name": "Vessel_230289000"
+  },
+  "230183820": {
+    "latitude": 60.3564,
+    "longitude": 21.038198,
+    "velocity": 0.0,
+    "heading": 352,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230183820"
+  },
+  "230045240": {
+    "latitude": 60.275237,
+    "longitude": 26.44531,
+    "velocity": 0.0,
+    "heading": 218,
+    "cog": 301.4,
+    "vessel_name": "Vessel_230045240"
+  },
+  "273389560": {
+    "latitude": 60.712535,
+    "longitude": 28.728282,
+    "velocity": 0.1,
+    "heading": 511,
+    "cog": 49.0,
+    "vessel_name": "Vessel_273389560"
+  },
+  "230017340": {
+    "latitude": 60.01344,
+    "longitude": 23.94606,
+    "velocity": 0.0,
+    "heading": 25,
+    "cog": 283.6,
+    "vessel_name": "Vessel_230017340"
+  },
+  "413279020": {
+    "latitude": 60.02814,
+    "longitude": 29.054,
+    "velocity": 12.1,
+    "heading": 91,
+    "cog": 90.4,
+    "vessel_name": "Vessel_413279020"
+  },
+  "230251000": {
+    "latitude": 65.592868,
+    "longitude": 24.47411,
+    "velocity": 0.0,
+    "heading": 100,
+    "cog": 354.9,
+    "vessel_name": "Vessel_230251000"
+  },
+  "230006760": {
+    "latitude": 63.711817,
+    "longitude": 22.688217,
+    "velocity": 0.0,
+    "heading": 342,
+    "cog": 71.7,
+    "vessel_name": "Vessel_230006760"
+  },
+  "636019971": {
+    "latitude": 60.581282,
+    "longitude": 19.121453,
+    "velocity": 10.1,
+    "heading": 220,
+    "cog": 220.9,
+    "vessel_name": "Vessel_636019971"
+  },
+  "230046990": {
+    "latitude": 59.80993,
+    "longitude": 22.914815,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 318.7,
+    "vessel_name": "Vessel_230046990"
+  },
+  "276702000": {
+    "latitude": 59.451767,
+    "longitude": 24.669628,
+    "velocity": 0.1,
+    "heading": 511,
+    "cog": 62.5,
+    "vessel_name": "Vessel_276702000"
+  },
+  "636023164": {
+    "latitude": 60.02721,
+    "longitude": 29.483522,
+    "velocity": 6.3,
+    "heading": 511,
+    "cog": 272.2,
+    "vessel_name": "Vessel_636023164"
+  },
+  "265537680": {
+    "latitude": 65.798018,
+    "longitude": 23.277068,
+    "velocity": 0.0,
+    "heading": 306,
+    "cog": 116.4,
+    "vessel_name": "Vessel_265537680"
+  },
+  "230011590": {
+    "latitude": 65.040503,
+    "longitude": 24.557272,
+    "velocity": 0.0,
+    "heading": 354,
+    "cog": 178.0,
+    "vessel_name": "Vessel_230011590"
+  },
+  "276832000": {
+    "latitude": 59.49762,
+    "longitude": 24.940152,
+    "velocity": 0.0,
+    "heading": 300,
+    "cog": 226.9,
+    "vessel_name": "Vessel_276832000"
+  },
+  "230024000": {
+    "latitude": 65.75192,
+    "longitude": 24.15767,
+    "velocity": 6.4,
+    "heading": 108,
+    "cog": 109.5,
+    "vessel_name": "Vessel_230024000"
+  },
+  "230992250": {
+    "latitude": 60.168383,
+    "longitude": 20.252603,
+    "velocity": 12.8,
+    "heading": 99,
+    "cog": 98.6,
+    "vessel_name": "Vessel_230992250"
+  },
+  "230987390": {
+    "latitude": 60.210453,
+    "longitude": 21.563898,
+    "velocity": 8.7,
+    "heading": 336,
+    "cog": 336.2,
+    "vessel_name": "Vessel_230987390"
+  },
+  "230992680": {
+    "latitude": 60.109067,
+    "longitude": 20.398648,
+    "velocity": 10.8,
+    "heading": 110,
+    "cog": 107.8,
+    "vessel_name": "Vessel_230992680"
+  },
+  "230099540": {
+    "latitude": 60.322627,
+    "longitude": 20.372085,
+    "velocity": 3.8,
+    "heading": 511,
+    "cog": 332.8,
+    "vessel_name": "Vessel_230099540"
+  },
+  "230174300": {
+    "latitude": 60.50729,
+    "longitude": 21.247625,
+    "velocity": 0.0,
+    "heading": 313,
+    "cog": 296.5,
+    "vessel_name": "Vessel_230174300"
+  },
+  "257086660": {
+    "latitude": 62.121615,
+    "longitude": 20.836563,
+    "velocity": 11.2,
+    "heading": 343,
+    "cog": 346.0,
+    "vessel_name": "Vessel_257086660"
+  },
+  "230107940": {
+    "latitude": 62.345158,
+    "longitude": 21.215937,
+    "velocity": 0.0,
+    "heading": 4,
+    "cog": 303.3,
+    "vessel_name": "Vessel_230107940"
+  },
+  "230111350": {
+    "latitude": 64.220832,
+    "longitude": 23.717198,
+    "velocity": 0.0,
+    "heading": 343,
+    "cog": 106.0,
+    "vessel_name": "Vessel_230111350"
+  },
+  "275520000": {
+    "latitude": 58.684768,
+    "longitude": 21.363535,
+    "velocity": 7.3,
+    "heading": 195,
+    "cog": 190.6,
+    "vessel_name": "Vessel_275520000"
+  },
+  "352004649": {
+    "latitude": 60.188925,
+    "longitude": 27.86661,
+    "velocity": 12.6,
+    "heading": 287,
+    "cog": 287.7,
+    "vessel_name": "Vessel_352004649"
+  },
+  "276001840": {
+    "latitude": 59.499357,
+    "longitude": 24.814073,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 226.9,
+    "vessel_name": "Vessel_276001840"
+  },
+  "230093590": {
+    "latitude": 60.406858,
+    "longitude": 26.252348,
+    "velocity": 0.0,
+    "heading": 76,
+    "cog": 336.2,
+    "vessel_name": "Vessel_230093590"
+  },
+  "230991780": {
+    "latitude": 61.133437,
+    "longitude": 21.440635,
+    "velocity": 0.0,
+    "heading": 133,
+    "cog": 296.9,
+    "vessel_name": "Vessel_230991780"
+  },
+  "273618490": {
+    "latitude": 59.669893,
+    "longitude": 28.297295,
+    "velocity": 0.0,
+    "heading": 224,
+    "cog": 360.0,
+    "vessel_name": "Vessel_273618490"
+  },
+  "230168060": {
+    "latitude": 60.223065,
+    "longitude": 22.098708,
+    "velocity": 0.0,
+    "heading": 215,
+    "cog": 218.4,
+    "vessel_name": "Vessel_230168060"
+  },
+  "230661000": {
+    "latitude": 65.399627,
+    "longitude": 24.050017,
+    "velocity": 0.0,
+    "heading": 64,
+    "cog": 47.3,
+    "vessel_name": "Vessel_230661000"
+  },
+  "230991670": {
+    "latitude": 60.461808,
+    "longitude": 26.962352,
+    "velocity": 0.0,
+    "heading": 120,
+    "cog": 330.7,
+    "vessel_name": "Vessel_230991670"
+  },
+  "230710000": {
+    "latitude": 60.44322,
+    "longitude": 22.218978,
+    "velocity": 0.0,
+    "heading": 178,
+    "cog": 7.4,
+    "vessel_name": "Vessel_230710000"
+  },
+  "230174460": {
+    "latitude": 60.541078,
+    "longitude": 21.320485,
+    "velocity": 0.0,
+    "heading": 258,
+    "cog": 213.5,
+    "vessel_name": "Vessel_230174460"
+  },
+  "230115340": {
+    "latitude": 61.594327,
+    "longitude": 21.464652,
+    "velocity": 0.0,
+    "heading": 279,
+    "cog": 214.0,
+    "vessel_name": "Vessel_230115340"
+  },
+  "230163320": {
+    "latitude": 60.196327,
+    "longitude": 22.261165,
+    "velocity": 0.0,
+    "heading": 59,
+    "cog": 249.0,
+    "vessel_name": "Vessel_230163320"
+  },
+  "230158730": {
+    "latitude": 64.224818,
+    "longitude": 23.70775,
+    "velocity": 0.0,
+    "heading": 324,
+    "cog": 161.9,
+    "vessel_name": "Vessel_230158730"
+  },
+  "230109460": {
+    "latitude": 62.35627,
+    "longitude": 21.216198,
+    "velocity": 0.0,
+    "heading": 10,
+    "cog": 351.1,
+    "vessel_name": "Vessel_230109460"
+  },
+  "230939360": {
+    "latitude": 60.439308,
+    "longitude": 21.396767,
+    "velocity": 0.0,
+    "heading": 59,
+    "cog": 203.9,
+    "vessel_name": "Vessel_230939360"
+  },
+  "538006145": {
+    "latitude": 59.67023,
+    "longitude": 23.591822,
+    "velocity": 9.2,
+    "heading": 254,
+    "cog": 252.9,
+    "vessel_name": "Vessel_538006145"
+  },
+  "276330000": {
+    "latitude": 59.4534,
+    "longitude": 24.73775,
+    "velocity": 0.0,
+    "heading": 197,
+    "cog": 10.0,
+    "vessel_name": "Vessel_276330000"
+  },
+  "257357000": {
+    "latitude": 59.686223,
+    "longitude": 23.651997,
+    "velocity": 12.3,
+    "heading": 258,
+    "cog": 259.0,
+    "vessel_name": "Vessel_257357000"
+  },
+  "230138770": {
+    "latitude": 61.598468,
+    "longitude": 21.498668,
+    "velocity": 0.0,
+    "heading": 91,
+    "cog": 4.0,
+    "vessel_name": "Vessel_230138770"
+  },
+  "276260000": {
+    "latitude": 59.457937,
+    "longitude": 24.708283,
+    "velocity": 0.0,
+    "heading": 252,
+    "cog": 343.6,
+    "vessel_name": "Vessel_276260000"
+  },
+  "255806291": {
+    "latitude": 60.237002,
+    "longitude": 26.420445,
+    "velocity": 8.0,
+    "heading": 21,
+    "cog": 22.1,
+    "vessel_name": "Vessel_255806291"
+  },
+  "273256410": {
+    "latitude": 60.05888,
+    "longitude": 27.265162,
+    "velocity": 11.7,
+    "heading": 236,
+    "cog": 238.9,
+    "vessel_name": "Vessel_273256410"
+  },
+  "265522500": {
+    "latitude": 59.47099,
+    "longitude": 18.81952,
+    "velocity": 11.1,
+    "heading": 249,
+    "cog": 250.3,
+    "vessel_name": "Vessel_265522500"
+  },
+  "266435000": {
+    "latitude": 59.908108,
+    "longitude": 22.310318,
+    "velocity": 10.8,
+    "heading": 7,
+    "cog": 8.8,
+    "vessel_name": "Vessel_266435000"
+  },
+  "253361000": {
+    "latitude": 59.365,
+    "longitude": 22.419715,
+    "velocity": 8.8,
+    "heading": 77,
+    "cog": 72.9,
+    "vessel_name": "Vessel_253361000"
+  },
+  "255619000": {
+    "latitude": 65.594335,
+    "longitude": 23.420245,
+    "velocity": 9.0,
+    "heading": 7,
+    "cog": 3.1,
+    "vessel_name": "Vessel_255619000"
+  },
+  "265732740": {
+    "latitude": 59.624885,
+    "longitude": 18.845832,
+    "velocity": 18.3,
+    "heading": 45,
+    "cog": 44.5,
+    "vessel_name": "Vessel_265732740"
+  },
+  "304339000": {
+    "latitude": 62.72254,
+    "longitude": 20.419298,
+    "velocity": 11.6,
+    "heading": 176,
+    "cog": 176.5,
+    "vessel_name": "Vessel_304339000"
+  },
+  "230031000": {
+    "latitude": 60.16617,
+    "longitude": 24.70583,
+    "velocity": 0.1,
+    "heading": 81,
+    "cog": 221.2,
+    "vessel_name": "Vessel_230031000"
+  },
+  "230052800": {
+    "latitude": 60.176218,
+    "longitude": 24.963057,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 329.3,
+    "vessel_name": "Vessel_230052800"
+  },
+  "276636000": {
+    "latitude": 59.450667,
+    "longitude": 24.672483,
+    "velocity": 0.0,
+    "heading": 135,
+    "cog": 213.4,
+    "vessel_name": "Vessel_276636000"
+  },
+  "276756000": {
+    "latitude": 59.498467,
+    "longitude": 24.939232,
+    "velocity": 0.1,
+    "heading": 511,
+    "cog": 90.8,
+    "vessel_name": "Vessel_276756000"
+  },
+  "305980000": {
+    "latitude": 60.706433,
+    "longitude": 18.25105,
+    "velocity": 9.2,
+    "heading": 92,
+    "cog": 91.5,
+    "vessel_name": "Vessel_305980000"
+  },
+  "276861000": {
+    "latitude": 59.497233,
+    "longitude": 24.940852,
+    "velocity": 0.0,
+    "heading": 15,
+    "cog": 336.2,
+    "vessel_name": "Vessel_276861000"
+  },
+  "230938890": {
+    "latitude": 61.866628,
+    "longitude": 28.886573,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 305.0,
+    "vessel_name": "Vessel_230938890"
+  },
+  "276809000": {
+    "latitude": 59.450767,
+    "longitude": 24.672167,
+    "velocity": 0.0,
+    "heading": 133,
+    "cog": 73.1,
+    "vessel_name": "Vessel_276809000"
+  },
+  "305108000": {
+    "latitude": 59.971963,
+    "longitude": 27.096957,
+    "velocity": 10.9,
+    "heading": 58,
+    "cog": 58.9,
+    "vessel_name": "Vessel_305108000"
+  },
+  "266450000": {
+    "latitude": 65.766797,
+    "longitude": 23.343398,
+    "velocity": 0.0,
+    "heading": 351,
+    "cog": 352.1,
+    "vessel_name": "Vessel_266450000"
+  },
+  "230992590": {
+    "latitude": 60.121452,
+    "longitude": 22.018637,
+    "velocity": 0.0,
+    "heading": 221,
+    "cog": 256.6,
+    "vessel_name": "Vessel_230992590"
+  },
+  "230175570": {
+    "latitude": 60.219243,
+    "longitude": 19.538555,
+    "velocity": 0.0,
+    "heading": 306,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230175570"
+  },
+  "265794080": {
+    "latitude": 59.752172,
+    "longitude": 19.081563,
+    "velocity": 0.0,
+    "heading": 511,
+    "cog": 286.8,
+    "vessel_name": "Vessel_265794080"
+  },
+  "215936000": {
+    "latitude": 59.530773,
+    "longitude": 23.237067,
+    "velocity": 12.4,
+    "heading": 271,
+    "cog": 273.0,
+    "vessel_name": "Vessel_215936000"
+  },
+  "230035100": {
+    "latitude": 61.605237,
+    "longitude": 21.458973,
+    "velocity": 0.0,
+    "heading": 94,
+    "cog": 316.8,
+    "vessel_name": "Vessel_230035100"
+  },
+  "210561000": {
+    "latitude": 59.507823,
+    "longitude": 23.841423,
+    "velocity": 7.3,
+    "heading": 242,
+    "cog": 245.5,
+    "vessel_name": "Vessel_210561000"
+  },
+  "230014910": {
+    "latitude": 59.810147,
+    "longitude": 22.914403,
+    "velocity": 102.3,
+    "heading": 94,
+    "cog": 360.0,
+    "vessel_name": "Vessel_230014910"
+  },
+  "265762030": {
+    "latitude": 59.745808,
+    "longitude": 19.111722,
+    "velocity": 2.3,
+    "heading": 89,
+    "cog": 283.6,
+    "vessel_name": "Vessel_265762030"
+  },
+  "538004481": {
+    "latitude": 60.171935,
+    "longitude": 27.846998,
+    "velocity": 13.9,
+    "heading": 105,
+    "cog": 105.2,
+    "vessel_name": "Vessel_538004481"
+  },
+  "230716000": {
+    "latitude": 60.442745,
+    "longitude": 22.219,
+    "velocity": 0.0,
+    "heading": 6,
+    "cog": 41.0,
+    "vessel_name": "Vessel_230716000"
+  },
+  "230070870": {
+    "latitude": 65.673765,
+    "longitude": 24.515053,
+    "velocity": 0.0,
+    "heading": 116,
+    "cog": 293.9,
+    "vessel_name": "Vessel_230070870"
+  },
+  "230129940": {
+    "latitude": 60.206,
+    "longitude": 20.277692,
+    "velocity": 0.1,
+    "heading": 127,
+    "cog": 232.1,
+    "vessel_name": "Vessel_230129940"
+  },
+  "258849000": {
+    "latitude": 64.616902,
+    "longitude": 21.662125,
+    "velocity": 11.7,
+    "heading": 136,
+    "cog": 136.3,
+    "vessel_name": "Vessel_258849000"
+  },
+  "230668000": {
+    "latitude": 60.234845,
+    "longitude": 22.112078,
+    "velocity": 0.0,
+    "heading": 22,
+    "cog": 22.3,
+    "vessel_name": "Vessel_230668000"
+  },
+  "265811390": {
+    "latitude": 59.514833,
+    "longitude": 18.504312,
+    "velocity": 9.8,
+    "heading": 52,
+    "cog": 52.0,
+    "vessel_name": "Vessel_265811390"
+  },
+  "230025450": {
+    "latitude": 60.419783,
+    "longitude": 26.250067,
+    "velocity": 0.0,
+    "heading": 286,
+    "cog": 200.6,
+    "vessel_name": "Vessel_230025450"
+  },
+  "538007042": {
+    "latitude": 60.31208,
+    "longitude": 25.557028,
+    "velocity": 0.0,
+    "heading": 308,
+    "cog": 315.8,
+    "vessel_name": "Vessel_538007042"
+  },
+  "356467000": {
+    "latitude": 59.855067,
+    "longitude": 25.879602,
+    "velocity": 0.0,
+    "heading": 269,
+    "cog": 360.0,
+    "vessel_name": "Vessel_356467000"
+  },
+  "265629800": {
+    "latitude": 59.485683,
+    "longitude": 18.695913,
+    "velocity": 9.1,
+    "heading": 288,
+    "cog": 291.6,
+    "vessel_name": "Vessel_265629800"
+  },
+  "265588910": {
+    "latitude": 59.851087,
+    "longitude": 19.107648,
+    "velocity": 1.7,
+    "heading": 511,
+    "cog": 12.7,
+    "vessel_name": "Vessel_265588910"
+  },
+  "230992260": {
+    "latitude": 61.12726,
+    "longitude": 21.47266,
+    "velocity": 0.0,
+    "heading": 359,
+    "cog": 286.9,
+    "vessel_name": "Vessel_230992260"
+  },
+  "211815120": {
+    "latitude": 58.608228,
+    "longitude": 17.516677,
+    "velocity": 9.2,
+    "heading": 114,
+    "cog": 108.6,
+    "vessel_name": "Vessel_211815120"
+  },
+  "311001078": {
+    "latitude": 60.620367,
+    "longitude": 28.558187,
+    "velocity": 0.0,
+    "heading": 151,
+    "cog": 360.0,
+    "vessel_name": "Vessel_311001078"
+  },
+  "265719460": {
+    "latitude": 63.680125,
+    "longitude": 20.333295,
+    "velocity": 0.0,
+    "heading": 60,
+    "cog": 123.2,
+    "vessel_name": "Vessel_265719460"
+  },
+  "273348430": {
+    "latitude": 60.312223,
+    "longitude": 28.71577,
+    "velocity": 3.6,
+    "heading": 327,
+    "cog": 323.6,
+    "vessel_name": "Vessel_273348430"
+  },
+  "273344790": {
+    "latitude": 60.329307,
+    "longitude": 28.712332,
+    "velocity": 1.0,
+    "heading": 274,
+    "cog": 231.0,
+    "vessel_name": "Vessel_273344790"
+  },
+  "636015170": {
+    "latitude": 59.688535,
+    "longitude": 28.420502,
+    "velocity": 0.1,
+    "heading": 180,
+    "cog": 21.6,
+    "vessel_name": "Vessel_636015170"
+  },
+  "276554000": {
+    "latitude": 59.444447,
+    "longitude": 24.764815,
+    "velocity": 0.0,
+    "heading": 69,
+    "cog": 263.2,
+    "vessel_name": "Vessel_276554000"
+  },
+  "255806443": {
+    "latitude": 60.435913,
+    "longitude": 22.211485,
+    "velocity": 0.0,
+    "heading": 18,
+    "cog": 11.6,
+    "vessel_name": "Vessel_255806443"
+  },
+  "230685000": {
+    "latitude": 59.491077,
+    "longitude": 24.963362,
+    "velocity": 0.0,
+    "heading": 312,
+    "cog": 341.5,
+    "vessel_name": "Vessel_230685000"
+  },
+  "273353110": {
+    "latitude": 60.336677,
+    "longitude": 28.675623,
+    "velocity": 0.4,
+    "heading": 340,
+    "cog": 33.2,
+    "vessel_name": "Vessel_273353110"
+  },
+  "273312210": {
+    "latitude": 59.40928,
+    "longitude": 22.265333,
+    "velocity": 5.3,
+    "heading": 232,
+    "cog": 239.2,
+    "vessel_name": "Vessel_273312210"
+  },
+  "265522530": {
+    "latitude": 59.414495,
+    "longitude": 18.509928,
+    "velocity": 10.5,
+    "heading": 318,
+    "cog": 317.8,
+    "vessel_name": "Vessel_265522530"
+  },
+  "265563260": {
+    "latitude": 63.680052,
+    "longitude": 20.33339,
+    "velocity": 0.0,
+    "heading": 61,
+    "cog": 321.7,
+    "vessel_name": "Vessel_265563260"
+  },
+  "265602050": {
+    "latitude": 59.288675,
+    "longitude": 18.915423,
+    "velocity": 0.0,
+    "heading": 191,
+    "cog": 360.0,
+    "vessel_name": "Vessel_265602050"
+  },
+  "273345030": {
+    "latitude": 60.34475,
+    "longitude": 28.618712,
+    "velocity": 0.0,
+    "heading": 251,
+    "cog": 119.0,
+    "vessel_name": "Vessel_273345030"
+  },
+  "230212000": {
+    "latitude": 63.841968,
+    "longitude": 23.025155,
+    "velocity": 0.1,
+    "heading": 511,
+    "cog": 184.6,
+    "vessel_name": "Vessel_230212000"
+  }
+}

@@ -17,36 +17,44 @@ def save_to_json_loop(interval=3, filename="realtime_data/latest_vessels.json"):
             print(f"Error saving JSON: {e}")
         time.sleep(interval)
 
-
 def on_message(client, userdata, msg):
     print("Received raw MQTT message.")
     print("Topic:", msg.topic)
-    print("Payload:", msg.payload.decode("utf-8"))
     try:
-        payload = json.loads(msg.payload.decode("utf-8"))
-        if "position" in payload and "mmsi" in payload:
-            pos = payload["position"]
-            mmsi = str(payload["mmsi"])
+        decoded = msg.payload.decode("utf-8")
+        print("Payload:", decoded)
 
-            vessel_data = {
-                "latitude": pos.get("latitude"),
-                "longitude": pos.get("longitude"),
-                "velocity": pos.get("speedOverGround"),
-                "heading": pos.get("trueHeading"),
-                "cog": pos.get("courseOverGround"),
-                "vessel_name": payload.get("name", "Unknown")
-            }
+        payload = json.loads(decoded)
+        mmsi = msg.topic.split("/")[-2]  
+        print("MMSI from topic:", mmsi)
 
-            if vessel_data["latitude"] and vessel_data["longitude"]:
-                latest_vessels[mmsi] = vessel_data
-                print(f"[📡] Got vessel: {mmsi}, {vessel_data}")
+        
+        lat = payload.get("lat")
+        lon = payload.get("lon")
+        cog = payload.get("cog")
+        heading = payload.get("heading")
+        velocity = payload.get("sog")
+
+        vessel_data = {
+            "latitude": lat,
+            "longitude": lon,
+            "velocity": velocity,
+            "heading": heading,
+            "cog": cog,
+            "vessel_name": f"Vessel_{mmsi}" 
+        }
+
+        if lat is not None and lon is not None:
+            latest_vessels[mmsi] = vessel_data
+            print(f"Got vessel: {mmsi}, {vessel_data}")
+
     except Exception as e:
-        print(f"[❌] Error parsing message: {e}")
+        print(f"Error parsing message: {e}")
 
 
 MQTT_BROKER = "meri.digitraffic.fi"
 MQTT_PORT = 443
-MQTT_TOPIC = "vessels-v2/positions/#"
+MQTT_TOPIC = "vessels-v2/+/location"
 APP_NAME = f"AIS_Listener_{uuid.uuid4()}"
 
 
@@ -61,5 +69,9 @@ print("MQTT connected. Listening for real-time AIS data...")
 
 threading.Thread(target=save_to_json_loop, daemon=True).start()
 client.loop_forever()
+
+
+
+
 
 

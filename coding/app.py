@@ -66,7 +66,7 @@ app.layout = html.Div([
     Input("vessel-type-dropdown", "value")
 )
 def update_map(n_intervals, selected_vessels):
-    json_path = "coding/realtime_data/latest_vessels.json"
+    json_path = "realtime_data/latest_vessels.json"
     if not os.path.exists(json_path):
         return [dl.TileLayer()], []
 
@@ -105,7 +105,8 @@ def update_map(n_intervals, selected_vessels):
             pred_lat, pred_lon = predict_position(model, row)
             predicted_point = dl.Marker(
                 position=[pred_lat, pred_lon],
-                icon=dict(iconUrl="https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png")
+                icon=dict(iconUrl="https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png"),
+                children=dl.Popup(f"[Prediction] {name}")
             )
             map_layers.extend([marker, arrow, predicted_point])
         except:
