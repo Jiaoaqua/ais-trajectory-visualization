@@ -1,20 +1,26 @@
-###
+*****************************************************************************
 Data source page: https://www.digitraffic.fi/en/marine-traffic/#restjson--api
 Production address is wss://meri.digitraffic.fi:443/mqtt.
 Address for test is meri-test.digitraffic.fi.
-###
+*****************************************************************************
 
+-----------------------------------------------------------------------------
 MQTT WebSocket APIs
+-----------------------------------------------------------------------------
 
+-----------------------------------------------------------------------------
 1.	Topics
+-----------------------------------------------------------------------------
 At the root of each offered data type is also the topic status. 
 The message tells when the data is last updated in epoch seconds. E.g.:
 status: {
   "updated" : 1676628995
 }
 
+-----------------------------------------------------------------------------
 2.	Vessel topics
-Topics are constructed like this:
+-----------------------------------------------------------------------------
+Topics are structured as follows:
 vessels-v2/#                 # Tracking all data
 vessels-v2/+/location        # Tracking all locations
 vessels-v2/+/metadata        # Tracking all metadata
@@ -22,14 +28,16 @@ vessels-v2/<mmsi>/+          # Single vessel locations and metadata
 vessels-v2/<mmsi>/location   # Single vessel locations
 vessels-v2/<mmsi>/metadata   # Single vessel metadata
 
-Vessel message formats
-NOTE: the timestamp in the metadata message is in milliseconds while in the location message it is in seconds.
 
-See also AIS data field descriptions in Swagger: https://meri.digitraffic.fi/swagger/#/AIS%20V1
+*** Note: The timestamp in the metadata message is in milliseconds, whereas in the location message it is in seconds.
+
+For AIS data field descriptions, refer to the AIS Swagger Documentation.: https://meri.digitraffic.fi/swagger/#/AIS%20V1
 
 
+-----------------------------------------------------------------------------
 3. Vessel metadata –message
-
+-----------------------------------------------------------------------------
+Example:
 {
     "timestamp":1668075026035,
     "destination":"UST LUGA",
@@ -46,7 +54,7 @@ See also AIS data field descriptions in Swagger: https://meri.digitraffic.fi/swa
     "type":70
 }
 
-### Message	Description
+Field Descriptions
     "timestamp":1668075026035,	the time the metadata was recorded	
     "destination":"UST LUGA",	The vessel's intended destination port is Ust-Luga, Russia.	
     "name":"ARUNA CIHAN",	The name of the vessel.	
@@ -64,7 +72,10 @@ See also AIS data field descriptions in Swagger: https://meri.digitraffic.fi/swa
 ### Interpreting the message: 
 	In general, the Vessel metadata –message provides a snapshot of static information about the vessel "ARUNA CIHAN,
 
+-----------------------------------------------------------------------------
 4. Vessel location -message
+-----------------------------------------------------------------------------
+Example:
 {
     "time":1668075025,
     "sog":10.7,
@@ -78,7 +89,7 @@ See also AIS data field descriptions in Swagger: https://meri.digitraffic.fi/swa
     "lat":60.03802
 }
 
-### Message	Description
+### Field Descriptions
 	time: 1668075025 - the time the location data was recorded, expressed as seconds since the Unix epoch
 	sog: 10.7 - 'Speed over ground' This is the vessel's speed relative to the Earth's surface, measured in knots (nautical miles per hour).
 	cog: 326.6 - 'Course over ground'. This is the vessel's direction of travel relative to the Earth's surface, measured in degrees.
@@ -91,24 +102,28 @@ See also AIS data field descriptions in Swagger: https://meri.digitraffic.fi/swa
 	lat: 60.03802 - 'Latitude' of the vessel's position.
 	
 ### Interpreting the message: 
-	at the given time, 
-	the vessel was traveling at 10.7 knots at a course of 326.6 degrees, 
-	heading 325 degrees, 
-	at a location of approximately 60.03802 
-	degrees North latitude and 20.345818 degrees East longitude
+At the recorded time, the vessel was traveling at 10.7 knots with a course of 326.6 degrees, heading 325 degrees, located at 60.03802° N, 20.345818° E.
 
+
+-----------------------------------------------------------------------------
 SSE topics
-Topics are constructed like this:
+-----------------------------------------------------------------------------
+
+* Topics are constructed like this:
 
 sse-v2/status
 sse-v2/site/<site-id>
-Examples of tracking SSE-data
+
+* Examples of tracking SSE-data
 sse-v2/#                       # Tracking all data
 sse-v2/status                  # Tracking status messages
 sse-v2/site/+                  # Tracking all sites data
 sse-v2/site/<site-id>          # Tracking single site data
 
+-----------------------------------------------------------------------------
 SSE-data -message
+-----------------------------------------------------------------------------
+Example:
 {
     "timestamp":1668085252,
     "seaState":"CALM",
@@ -119,7 +134,7 @@ SSE-data -message
     "lightStatus":"OFF",
     "temperature":10
 }
-### Message	Description
+### Field Descriptions
 	timestamp: 1668085252 - The time the SSE data was recorded, expressed as seconds since the Unix epoch (January 1, 1970, 00:00:00 UTC).  You'll need to convert this to a human-readable date and time.
 	seaState: "CALM" - A description of the overall sea state at the location. In this case, it's "CALM". Other possible values could be "ROUGH," "MODERATE," etc., but the specific vocabulary used by Digitraffic should be confirmed from their documentation.
 	trend: "NO_CHANGE" - Indicates the trend of the sea state. Here, it's "NO_CHANGE," meaning the conditions are stable. Other possibilities might be "IMPROVING," "WORSENING," etc.
@@ -129,11 +144,19 @@ SSE-data -message
 	lightStatus: "OFF" - The status of a light at the measurement site.  In this case, it's "OFF." This is likely relevant if the data is coming from a buoy or navigational aid.
 	temperature: 10 - The water temperature at the measurement site, likely in degrees Celsius.
 
-### Interpreting the message:
-	this message indicates that at the given timestamp, 
-	the sea state at the monitored location was calm, 
-	with no change in the trend, 
-	wind waves coming from approximately South, 
-	a good level of confidence in the data, a slight heel angle (if applicable), 
-	a light that was off, 
-	and a water temperature of 10 degrees Celsius.
+### Interpretation:
+	At the recorded timestamp, the monitored location had:
+	A calm sea state with no trend change
+	Wind waves coming from 175° (South)
+	Good data confidence
+	A slight heel angle of 3 degrees
+	A light that was off
+	A water temperature of 10°C
+	
+******************************************************************************	
+SUMMARY
+*****************************************************************************
+
+This document provides an overview of vessel tracking and SSE data available through Digitraffic's MQTT WebSocket APIs. It describes how to access vessel metadata, location data, and environmental conditions, offering structured insights into the available data fields and their interpretations.
+
+
