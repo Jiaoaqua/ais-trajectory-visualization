@@ -1,7 +1,6 @@
 import dash
 from dash import dcc, html, Input, Output
 import dash_leaflet as dl
-import dash_leaflet.express as dlx
 import pandas as pd
 import numpy as np
 import math
@@ -16,7 +15,7 @@ model = joblib.load("coding/trajectory_rf_model.pkl")
 app = dash.Dash(__name__)
 app.title = "Turku Vessel Real-Time Prediction"
 
-# === Utility functions ===
+# === Utility Functions ===
 def calculate_arrow_points(lat, lon, heading, distance=0.02, arrow_width=0.007):
     angle_rad = math.radians(heading)
     end_lat = lat + distance * math.cos(angle_rad)
@@ -55,10 +54,10 @@ app.layout = html.Div([
         dcc.Dropdown(id="vessel-type-dropdown", placeholder="Select Vessel", multi=True, style={"width": "250px"}),
         dcc.Interval(id="interval", interval=10*1000, n_intervals=0)
     ], style={"display": "flex", "gap": "15px", "marginBottom": "20px", "alignItems": "center"}),
-    dl.Map(id="map", center=[60.44, 22.25], zoom=8, style={'height': '600px'}),
+    dl.Map(id="map", center=[60.44, 22.25], zoom=7, style={'height': '600px'}),
 ])
 
-# === Callback: Map Rendering ===
+# === Callback ===
 @app.callback(
     Output("map", "children"),
     Output("vessel-type-dropdown", "options"),
@@ -87,35 +86,54 @@ def update_map(n_intervals, selected_vessels):
         heading, cog, speed = row["heading"], row["cog"], row["velocity"]
         name = row["vessel_name"]
 
-        # Marker
+        # Current Position Marker
         marker = dl.Marker(
             position=[lat, lon],
             icon=dict(iconUrl=get_marker_icon(speed), iconSize=[25, 41], iconAnchor=[12, 41]),
             children=dl.Popup(f"{name}<br>Speed: {speed:.1f} knots<br>Heading: {heading}")
         )
 
-        # Heading arrow
+        # Heading Arrow (small arrow shape)
         arrow = dl.Polygon(
             positions=calculate_arrow_points(lat, lon, heading),
-            color="darkred", fill=True, fillOpacity=0.8
+            color="darkred", fill=True, fillOpacity=0.9
         )
 
-        # Prediction marker
         try:
+            # Predict Position
             pred_lat, pred_lon = predict_position(model, row)
+
+            # Prediction marker
             predicted_point = dl.Marker(
                 position=[pred_lat, pred_lon],
                 icon=dict(iconUrl="https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png"),
                 children=dl.Popup(f"[Prediction] {name}")
             )
-            map_layers.extend([marker, arrow, predicted_point])
+
+            # Dotted line from current to prediction
+            direction_line = dl.Polyline(
+                positions=[[lat, lon], [pred_lat, pred_lon]],
+                color="darkred",
+                weight=2,
+                dashArray='6,4'
+            )
+
+            # Optional: small arrow icon at predicted point
+            arrow_icon = dl.Marker(
+                position=[pred_lat, pred_lon],
+                icon=dict(
+                    iconUrl="https://cdn-icons-png.flaticon.com/512/545/545682.png",
+                    iconSize=[16, 16],
+                    iconAnchor=[8, 8]
+                )
+            )
+
+            map_layers.extend([marker, arrow, predicted_point, direction_line, arrow_icon])
         except:
             map_layers.extend([marker, arrow])
+
     return map_layers, vessel_options
 
 # === Run App ===
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-
-

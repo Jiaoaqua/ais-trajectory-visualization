@@ -1,0 +1,25 @@
+Vessel Visualization Update Summary (April 1, 2025)
+
+Prediction Feature Enhanced
+
+For each vessel, the predicted position 5 minutes later is shown with a green marker.
+
+A dashed arrowed line now connects the current vessel location and the predicted point to visually indicate direction.
+
+Prediction Direction Representation
+
+We initially tried dlx.arrowhead for directional arrows, but due to compatibility and styling issues, we replaced it with a more reliable dashed Polyline + custom arrow style.
+
+This method is simple, clear, and robust across all vessels.
+
+Screenshot Updates
+
+Folder front_end_screenshots/ updated with new UI elements:
+
+vessel_prediction_info.jpg: shows prediction marker and dashed arrow.
+
+Others remain unchanged for navigation, dropdown, and marker hover features.
+
+Note on Implementation
+A direct leaflet arrowhead (like ➡️) was not reliable across vessels and zoom levels due to rendering glitches and inconsistencies with projection.
+Hence, we chose a dashed line + inline arrow style to clearly show direction without breaking visual flow.
