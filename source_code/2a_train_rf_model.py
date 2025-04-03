@@ -5,9 +5,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import joblib
 
-# Load and clean data (only use first 50,000 rows to reduce model size)
-df = pd.read_csv("coding/Processed_AIS_Training_Data.csv")
-df = df.dropna().head(50000)
+# Load and clean data (only use first 100,000 rows to reduce model size)
+df = pd.read_csv("results/Processed_AIS_Training_Data.csv")
+df = df.dropna().head(100000)
 
 # Define input and target variables
 X = df[["latitude", "longitude", "velocity", "heading", "cog"]]
@@ -38,8 +38,8 @@ print("MAE:", mean_absolute_error(y_test, y_pred))
 print("MSE:", mean_squared_error(y_test, y_pred))
 
 # Save the model
-joblib.dump(model, "coding/trajectory_rf_model.pkl")
-print("Model saved to: coding/trajectory_rf_model.pkl")
+joblib.dump(model, "source_code/trajectory_rf_model.pkl")
+print("Model saved to: source_code/trajectory_rf_model.pkl")
 
 
 
