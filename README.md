@@ -63,14 +63,12 @@ python source_code/3a_query_API.py
 
 ## 📍 Screenshot
 
-*(Insert screenshot here)*  
-```markdown
 ![AIS Prediction](./screenshot.png)
 ```
 
 ## 📚 Credits
 
-Developed by Jiao Chen at Turku University of Applied Sciences  
+Developed by Jiao Chen and Vo Thao at Turku University of Applied Sciences  
 Part of the AI + Real-time Data Engineering course
 
 ## 💡 Future Improvements
