@@ -61,11 +61,6 @@ python source_code/2b_Visualize_prediction.py
 python source_code/3a_query_API.py
 ```
 
-## 📍 Screenshot
-
-![AIS Prediction](./screenshot.png)
-```
-
 ## 📚 Credits
 
 Developed by Jiao Chen and Vo Thao at Turku University of Applied Sciences  
